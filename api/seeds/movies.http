@@ -1,0 +1,16 @@
+### GET Index
+GET http://localhost:7000/movies
+
+
+### POST Create
+POST http://localhost:7000/movies
+Content-Type: application/json
+
+[
+  {
+    "title": "Mad Max",
+    "yearReleased": "1975",
+    "director": "5a274d10c35c6733b6ed6893",
+    "comments": [{ "body": "One of the best films ever!" }]
+  }
+]

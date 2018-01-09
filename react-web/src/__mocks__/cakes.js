@@ -2,7 +2,7 @@ const resMock = {
   token: 'mytoken'
 };
 
-export function getMovies() {
+export function getCakes() {
   return new Promise((resolve, reject) => {
     process.nextTick(
       () =>

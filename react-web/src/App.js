@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import MoviesPage from './pages/MoviesPage';
-import MovieForm from './components/MovieForm'
+import CakesPage from './pages/CakesPage';
+import CakeForm from './components/CakeForm'
 import AboutPage from './pages/AboutPage'
-import * as moviesAPI from './api/movies'
+import * as cakesAPI from './api/cakes'
 import {
   BrowserRouter as Router,
   Route,
@@ -11,51 +11,46 @@ import {
   Switch
 } from 'react-router-dom'
 
-// export function getMovies() {
-//   return moviesAPI.all()
-//     .then(movies => {
-//       movies
-//     })
-// }
+
 
 export class App extends Component {
-  state = { movies: null }
+  state = { cakes: null }
 
   componentDidMount() {
-    moviesAPI.all()
-      .then((movies) => {
-        this.setState({ movies })
+    cakesAPI.all()
+      .then((cakes) => {
+        this.setState({ cakes })
       })
   }
 
-  handleMovieSubmission = (movie) => {
-    this.setState(({movies}) => {
-      return { movies: [movie].concat(movies)}
+  handleCakeSubmission = (cake) => {
+    this.setState(({cakes}) => {
+      return { cakes: [cake].concat(cakes)}
     });
-    moviesAPI.save(movie);
+    cakesAPI.save(cake);
   }
 
   render() {
-    const { movies } = this.state;
+    const { cakes } = this.state;
     return (
       <Router>
         <div className="App">
           <nav>
           <span><Link to='/about'>About</Link></span>
-          <span><Link to='/movies'>Home</Link></span>
-          <span><Link to='/movies/new'>New movie</Link></span>
+          <span><Link to='/cakes'>Home</Link></span>
+        <span><Link to='/cakes/new'>New cake</Link></span>
         </nav>
 
         <Switch>
         <Route path='/about' component={AboutPage}/>
-        <Route path='/movies/new' render={
+        <Route path='/cakes/new' render={
           () => (
-            <MovieForm onSubmit={this.handleMovieSubmission} />
+            <CakeForm onSubmit={this.handleCakeSubmission} />
           )
         }/>
-        <Route path='/movies' render={
+        <Route path='/cakes' render={
           () => (
-            <MoviesPage movies={movies}/>
+            <CakesPage cakes={cakes}/>
           )}/>
           </Switch>
       </div>

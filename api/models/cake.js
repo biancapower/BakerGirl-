@@ -10,7 +10,7 @@ const person = {
   type: ObjectId, ref: 'Person'
 }
 
-const movieSchema = Schema({
+const cakeSchema = Schema({
   title: String,
   yearReleased: Number,
   star: String,
@@ -20,6 +20,6 @@ const movieSchema = Schema({
   crew: [{ person: person, role: String }]
 });
 
-const Movie = mongoose.models.Movie || mongoose.model('Movie', movieSchema);
+const Cake = mongoose.models.Cake || mongoose.model('Cake', cakeSchema);
 
-module.exports = Movie
+module.exports = Cake

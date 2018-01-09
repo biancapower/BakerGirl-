@@ -13,15 +13,15 @@ app.use(require('express-session')(
 ));
 app.use(authMiddleware.initialize);
 
-// Movies router/controller
-const moviesRouter = require('./routes/movies');
-app.use('/movies', moviesRouter);
+// cakes router/controller
+const cakesRouter = require('./routes/cakes');
+app.use('/cakes', cakesRouter);
 app.use('/auth', require('./routes/auth'));
 
 app.get('/', (req, res) => {
   res.json({
     resources: [{
-      movies: '/movies'
+      cakes: '/cakes'
     }]
   })
 });

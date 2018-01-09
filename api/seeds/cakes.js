@@ -1,13 +1,13 @@
-const Movie = require('../models/movie');
+const Cake = require('../models/cake');
 
-Movie.create([
+Cake.create([
   {
-      title: "Wonder Woman",
+      title: "Sponge",
       yearReleased: 2017,
       star: "Gal Gadot"
   },
   {
-      title: "Star Wars",
+      title: "Chocolate",
       yearReleased: 1977,
       star: "Carrie Fisher"
   }

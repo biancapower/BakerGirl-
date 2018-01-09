@@ -26,6 +26,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   Movie.create(req.body)
     .then((movie) => {
+      console.log(movie)
       res.status(201).json(movie).end();
     })
     .catch(error => res.json({ error }))

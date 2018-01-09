@@ -2,25 +2,25 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App, getMovies } from './App';
+import { App, gets } from './App';
 
-console.log("------", typeof getMovies);
-console.log("------", getMovies());
+console.log("------", typeof getCakes);
+console.log("------", getCakes());
 
 // Jest Mock Function
-jest.mock('movies'); // src/__mocks__/movies.js
+jest.mock('cakes'); // src/__mocks__/Cakes.js
 
 // Assertion for a promise must be returned.
 it('works with promises on mock functions', () => {
   expect.assertions(1);
-  
-  return getMovies().then(data => expect(data.token).toEqual('mytoken'));
+
+  return getCakes().then(data => expect(data.token).toEqual('mytoken'));
   // return expect(Promise.resolve({token: 'myjwt'}).resolves.toEqual({token: 'myjwt'}));
 });
 
 
 
-describe("Movie component with API call", function () {
+describe("Cake component with API call", function () {
   beforeEach(function() {
     window.fetch = jest.fn().mockImplementation(() => Promise.resolve({token: 'myjwt'}));
   });

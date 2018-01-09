@@ -1,11 +1,11 @@
 import React from 'react';
 import Comment from './Comment'
 
-export default function Movie(props)
+export default function Cake(props)
  {
   const { title, yearReleased, director, comments } = props;
   return (
-    <div className="movie">
+    <div className="cake">
       <span>
         Title: {title}
       </span>

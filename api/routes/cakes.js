@@ -1,5 +1,5 @@
 const express = require('express');
-const Movie = require('../models/movie');
+const Cake = require('../models/cake');
 const Person = require('../models/person');
 
 const router = express.Router();
@@ -14,19 +14,19 @@ const authorize = (req, res, next) => {
 }
 
 router.get('/', (req, res) => {
-  Movie.find()
+  Cake.find()
     .populate('director')
     .populate('crew.person')
     .populate('cast.actor')
     .populate('cast.character')
-    .then(movies => res.json(movies))
+    .then(cakes => res.json(cakes))
     .catch(error => res.json({ error }))
 });
 
 router.post('/', (req, res) => {
-  Movie.create(req.body)
-    .then((movie) => {
-      res.status(201).json(movie).end();
+  Cake.create(req.body)
+    .then((cake) => {
+      res.status(201).json(cake).end();
     })
     .catch(error => res.json({ error }))
 });

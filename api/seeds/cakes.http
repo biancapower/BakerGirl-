@@ -1,9 +1,9 @@
 ### GET Index
-GET http://localhost:7000/movies
+GET http://localhost:7000/cakes
 
 
 ### POST Create
-POST http://localhost:7000/movies
+POST http://localhost:7000/cakes
 Content-Type: application/json
 
 [

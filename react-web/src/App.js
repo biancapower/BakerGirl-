@@ -24,8 +24,8 @@ export class App extends Component {
   }
 
   handleCakeSubmission = (cake) => {
-    this.setState(({cakes}) => {
-      return { cakes: [cake].concat(cakes)}
+    this.setState(({ cakes }) => {
+      return { cakes: [cake].concat(cakes) }
     });
     cakesAPI.save(cake);
   }
@@ -36,25 +36,25 @@ export class App extends Component {
       <Router>
         <div className="App">
           <nav>
-          <span><Link to='/about'>About</Link></span>
-          <span><Link to='/cakes'>Home</Link></span>
-        <span><Link to='/cakes/new'>New cake</Link></span>
-        </nav>
+            <span><Link to='/about'>About</Link></span>
+            <span><Link to='/cakes'>Home</Link></span>
+            <span><Link to='/cakes/new'>New cake</Link></span>
+          </nav>
 
-        <Switch>
-        <Route path='/about' component={AboutPage}/>
-        <Route path='/cakes/new' render={
-          () => (
-            <CakeForm onSubmit={this.handleCakeSubmission} />
-          )
-        }/>
-        <Route path='/cakes' render={
-          () => (
-            <CakesPage cakes={cakes}/>
-          )}/>
+          <Switch>
+            <Route path='/about' component={AboutPage} />
+            <Route path='/cakes/new' render={
+              () => (
+                <CakeForm onSubmit={this.handleCakeSubmission} />
+              )
+            } />
+            <Route path='/cakes' render={
+              () => (
+                <CakesPage cakes={cakes} />
+              )} />
           </Switch>
-      </div>
-    </Router>
+        </div>
+      </Router>
     );
   }
 }

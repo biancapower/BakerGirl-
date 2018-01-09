@@ -12,6 +12,6 @@ export function save(cake) {
     },
     body: JSON.stringify(cake)
   })
-  .then(res => res.json())
-  .catch(error => { console.log(error) })
+    .then(res => res.json())
+    .catch(error => { console.log(error) })
 }

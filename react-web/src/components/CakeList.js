@@ -9,9 +9,9 @@ export default function CakeList({ cakes }) {
         cakes.map(cake => {
           console.log(cake)
           return <Cake key={cake._id}
-            {...cake}/>
+            {...cake} />
         })
       }
-     </div>
+    </div>
   )
 }

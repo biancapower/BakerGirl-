@@ -18,7 +18,7 @@ router.post('/signin',
 router.get('/cakes',
   authMiddleware.signIn,
   (req, res) => {
-    res.send({ cakes: [ 'Cakes!' ]})
+    res.send({ cakes: ['Cakes!'] })
   }
 );
 

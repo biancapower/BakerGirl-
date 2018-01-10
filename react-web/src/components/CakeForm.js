@@ -25,23 +25,9 @@ class CakeForm extends React.Component {
     return (
       <div>
         {redirect && <Redirect to='/thanks' />}
-        <form onSubmit={this.handleFormSubmission}>
-          <label>
-            Title
-          &nbsp;
-          <input type="text" name="title" />
-          </label>
-          &nbsp;
-        <label>
-            Year
-          &nbsp;
-          <input type="number" name="yearReleased" />
-          </label>
-          &nbsp;
-        <button type="submit">Create Cake! &hearts;</button>
-        </form>
+    
 
-        <Form>
+        <Form onSubmit={this.handleFormSubmission}>
 
           <h1>Create Your Cake</h1>
 
@@ -204,7 +190,7 @@ class CakeForm extends React.Component {
 
           <FormGroup>
             <Label for="text">Name</Label>
-            <Input type="text" name="text" id="exampleEmail" placeholder="Harriet Jones" />
+            <Input type="text" name="title" id="form-field-name" placeholder="Harriet Jones" />
           </FormGroup>
 
           <FormGroup>
@@ -229,7 +215,7 @@ class CakeForm extends React.Component {
 
           <FormGroup>
             <Label for="text">Number of Cake Eaters</Label>
-            <Input type="number" name="text" id="exampleEmail" placeholder="5" />
+            <Input type="number" name="yearReleased" id="exampleEmail" placeholder="5" />
           </FormGroup>
 
           <FormGroup tag="fieldset">
@@ -257,6 +243,9 @@ class CakeForm extends React.Component {
             <Label for="exampleText">How did you hear about BakerGirl?</Label>
             <Input type="textarea" name="text" id="exampleText" />
           </FormGroup>
+
+          <Button type="submit">Create Cake! 🍰</Button>
+          
 
         </Form>
       </div>

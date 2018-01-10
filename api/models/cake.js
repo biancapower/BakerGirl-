@@ -11,13 +11,20 @@ const person = {
 }
 
 const cakeSchema = Schema({
-  title: String,
-  yearReleased: Number,
-  star: String,
-  comments: [CommentSchema],
-  director: { type: ObjectId, ref: 'Person' },
-  cast: [{ actor: person, character: person }],
-  crew: [{ person: person, role: String }]
+  layers: String, 
+  tiers: String, 
+  flavours: [String], 
+  fillings: [String], 
+  style: String, 
+  custName: String, 
+  contactNumber: String, 
+  email: String, 
+  eventDate: String, 
+  eventType: String, 
+  servings: Number, 
+  delivery: Boolean, 
+  deliveryAddress: String, 
+  referral: String
 });
 
 const Cake = mongoose.models.Cake || mongoose.model('Cake', cakeSchema);

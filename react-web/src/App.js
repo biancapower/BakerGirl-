@@ -3,6 +3,9 @@ import './App.css';
 import CakesPage from './pages/CakesPage';
 import CakeForm from './components/CakeForm'
 import AboutPage from './pages/AboutPage'
+import AdminPage from './pages/AdminPage'
+import GalleryPage from './pages/GalleryPage'
+import ContactPage from './pages/ContactPage'
 import * as cakesAPI from './api/cakes'
 import {
   BrowserRouter as Router,
@@ -36,22 +39,28 @@ export class App extends Component {
       <Router>
         <div className="App">
           <nav>
+            <span><Link to='/'>Homepage</Link></span>
             <span><Link to='/about'>About</Link></span>
-            <span><Link to='/cakes'>Home</Link></span>
-            <span><Link to='/cakes/new'>New cake</Link></span>
+            <span><Link to='/contact'>Contact</Link></span>
+            <span><Link to='/gallery'>Gallery</Link></span>
+            <span><Link to='/cakes'>Admin</Link></span>
+
           </nav>
 
           <Switch>
             <Route path='/about' component={AboutPage} />
-            <Route path='/cakes/new' render={
-              () => (
-                <CakeForm onSubmit={this.handleCakeSubmission} />
-              )
-            } />
+            <Route path='/contact' component={ContactPage} />
+            <Route path='/gallery' component={GalleryPage} />
             <Route path='/cakes' render={
               () => (
                 <CakesPage cakes={cakes} />
               )} />
+            <Route path='/' render={
+              () => (
+                <CakeForm onSubmit={this.handleCakeSubmission} />
+              )
+            } />
+
           </Switch>
         </div>
       </Router>

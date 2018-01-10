@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage'
 import AdminPage from './pages/AdminPage'
 import GalleryPage from './pages/GalleryPage'
 import ContactPage from './pages/ContactPage'
+import ThanksPage from './pages/ThanksPage'
 import * as cakesAPI from './api/cakes'
 import {
   Container,
@@ -21,6 +22,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -90,6 +92,7 @@ export class App extends Component {
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />
               <Route path='/gallery' component={GalleryPage} />
+              <Route path='/thanks' component={ThanksPage} />
               <Route path='/cakes' render={
                 () => (
                   <CakesPage cakes={cakes} />

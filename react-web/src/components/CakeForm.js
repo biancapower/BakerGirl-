@@ -22,7 +22,7 @@ class CakeForm extends React.Component {
     const { redirect } = this.state
     return (
       <div>
-        {redirect && <Redirect to='/cakes' />}
+        {redirect && <Redirect to='/thanks' />}
         <form onSubmit={this.handleFormSubmission}>
           <label>
             Title

@@ -14,7 +14,8 @@ export default function () {
      </div>
         <Card id="card">
           <CardTitle>Contact</CardTitle>
-        <CardText>Email: </CardText>
+              <CardText>Email: hello.bakergirl@gmail.com</CardText>
+              <CardText>Call: 0405 592 325</CardText>
         </Card>
       </Container>
     </div>

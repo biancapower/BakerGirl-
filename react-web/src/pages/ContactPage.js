@@ -12,9 +12,9 @@ export default function () {
      <div className="logo">
           <Media id="logo" object src={Logo} alt="Generic placeholder image" />
      </div>
-        <Card id="about-card">
+        <Card id="card">
           <CardTitle>Contact</CardTitle>
-              <CardText></CardText>
+        <CardText>Email: </CardText>
         </Card>
       </Container>
     </div>

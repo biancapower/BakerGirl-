@@ -17,14 +17,14 @@ body {
     margin-top: 180px;
 }
 
-.Jumbotron {
+.jumbotron {
   background-image: url('../assets/images/BackgroundPicture.png');
 }
 
 
 /* About */
 
-#about-card {
+.card {
   position: absolute;
   left: 50%;
   top: 35%;
@@ -35,8 +35,7 @@ body {
   z-index: -1;
 }
 
-p.about {
-  margin-left: auto;
-  margin-right: auto;
-  width: 8em
+.card-content {
+  margin-top: 80px;
+
 }

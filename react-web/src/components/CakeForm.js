@@ -16,8 +16,8 @@ class CakeForm extends React.Component {
     const { elements } = event.target;
     const layers = elements["layers"].value;
     const tiers = elements["tiers"].value;
-    const flavours = [].slice.call(elements["flavours"]).filter( flavour => flavour.checked ).map( flavour => flavour.value );
-    const fillings = [].slice.call(elements["fillings"]).filter( fillings => fillings.checked ).map( fillings => fillings.value );
+    const flavours = [].slice.call(elements["flavours"]).filter( flavour => flavour.checked ).map( flavour => (flavour.value + "; ") );
+    const fillings = [].slice.call(elements["fillings"]).filter( fillings => fillings.checked ).map( fillings => (fillings.value + "; ") );
     const style = elements["style"].value;
     const custName = elements["custName"].value;
     const contactNumber = elements["contactNumber"].value;

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
 body {
   background-color: #FFF7FB;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -43,3 +45,35 @@ body {
   margin-top: 80px;
   color: #724085;
 }
+
+.admin-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.admin-table tr:hover {background-color: rgb(221, 221, 221);}
+
+.admin-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.admin-table th {
+  background-color: pink;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.admin-table td, .admin-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.admin-pg-q {
+  font-weight: bold;
+}
+
+.admin-pg-a {
+  /* padding-left: 20%; */
+}
+

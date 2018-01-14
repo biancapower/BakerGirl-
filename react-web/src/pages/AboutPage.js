@@ -4,7 +4,6 @@ import { Media } from 'reactstrap';
 import BackgroundPicture from '../assets/images/BackgroundPicture.png';
 import Logo from '../assets/images/Logo.png';
 
-
 export default function () {
   return (
     <div>

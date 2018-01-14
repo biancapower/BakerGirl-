@@ -65,7 +65,7 @@ export class App extends Component {
     const { cakes } = this.state;
     return (
       <Router>
-        <Container>
+        <div>
           <div className="App">
             <Navbar color="faded" light expand="md">
               <NavbarBrand href="/">LOGO</NavbarBrand>
@@ -105,7 +105,7 @@ export class App extends Component {
 
             </Switch>
           </div>
-        </Container>
+        </div>
       </Router>
     );
   }

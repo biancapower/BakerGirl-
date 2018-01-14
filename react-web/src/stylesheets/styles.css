@@ -16,11 +16,12 @@ body {
     right: 0;
     bottom: 0;
     width: 200px;
-    margin-top: 180px;
+    margin-top: 240px;
 }
 
-.jumbotron {
+.header-background {
   background-image: url('../assets/images/BackgroundPicture.png');
+  background-size: cover;
   height: 250px;
   z-index: -2;
 }
@@ -31,12 +32,12 @@ body {
 .card {
   text-align: center;
   position: absolute;
-  left: 50%;
-  top: 35%;
+  left: 25%;
+  top: 150px;
   height: 400px;
   margin-top: 200px;
-  width: 400px;
-  margin-left: -200px;
+  width: 50%;
+  /* margin-left: -200px; */
   z-index: -1;
   background-color: #E8C7A9;
 }

@@ -14,7 +14,7 @@ export default function () {
         </div>
         <Card id="card" className="pr-5 pl-5 btm-mar">
           <div className="card-content">
-            <CardTitle className="m-5 pt-4">Contact</CardTitle>
+            <CardTitle className="m-5 pt-4">CONTACT</CardTitle>
             <CardText>Email: hello.bakergirl@gmail.com</CardText>
             <CardText>Call: 0405 592 325</CardText>
           </div>

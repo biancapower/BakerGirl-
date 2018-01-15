@@ -1,7 +1,5 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardFooter } from 'reactstrap';
-import { Route, Switch, Link } from 'react-router-dom';
-import { Media } from 'reactstrap';
+import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardFooter, Media } from 'reactstrap';
 import BackgroundPicture from '../assets/images/BackgroundPicture.png';
 import Logo from '../assets/images/Logo.png';
 

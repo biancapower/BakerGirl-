@@ -20,6 +20,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
+  CardFooter,
   DropdownItem
 } from 'reactstrap';
 
@@ -85,6 +86,8 @@ export class App extends Component {
               </div>
             </div>
 
+
+
             <Switch>
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />
@@ -102,17 +105,9 @@ export class App extends Component {
 
             </Switch>
           </div>
-
-          {/* FOOTER */}
           <div color="faded" light expand="md" className="footer">
-            <div className="top-nav">
-              <div className="nav-item">
-                <NavLink href="/" className="link-text" >© 2017</NavLink>
-              </div>
-              <div className="nav-item">
-                  <NavLink href="/contact" className="link-text">Admin</NavLink>
-              </div>
-            </div>
+                <Link to="/" className="link-text" >© 2018 </Link>
+                <Link to="/admin" className="link-text">Admin</Link>
           </div>
         </div>
       </Router>

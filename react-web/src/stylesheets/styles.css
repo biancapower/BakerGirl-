@@ -78,6 +78,12 @@ body {
   /* padding-left: 20%; */
 }
 
-FormGroup Label {
-  text-align: left;
+@media (max-width: 900px) { 
+
+  .card {
+    width: 80%;
+    left: 10%;
+    
+  }
 }
+

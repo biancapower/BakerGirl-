@@ -68,10 +68,10 @@ export class App extends Component {
         <div>
           <div className="App">
             <Navbar color="faded" light expand="md">
-              <NavbarBrand href="/">LOGO</NavbarBrand>
-              <NavbarToggler onClick={this.toggle} />
-              <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto" navbar>
+              {/* <NavbarBrand href="/">LOGO</NavbarBrand> */}
+              {/* <NavbarToggler onClick={this.toggle} /> */}
+              {/* <Collapse isOpen={this.state.isOpen} navbar> */}
+                <Nav>
                   <NavItem>
                     <NavLink href="/">Home</NavLink>
                   </NavItem>
@@ -82,11 +82,11 @@ export class App extends Component {
                     <NavLink href="/gallery">Gallery</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="/contact">Contact</NavLink>
+                      <NavLink href="/contact">Contact</NavLink>
                   </NavItem>
                 </Nav>
-              </Collapse>
-            </Navbar>
+          {/* </Collapse> */}
+         </Navbar>
 
             <Switch>
               <Route path='/about' component={AboutPage} />

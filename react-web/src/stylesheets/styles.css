@@ -5,6 +5,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.btm-mar {
+  margin-bottom: 100px;
+}
 
 /* logo and jumbotron */
 
@@ -35,7 +38,8 @@ body {
 
 .footer {
   background-color: #F8CBE5;
-  position: relative;
+  position: fixed;
+  height: 60px;
   bottom: 0;
   padding-top: 15px;
   padding-bottom: 15px;

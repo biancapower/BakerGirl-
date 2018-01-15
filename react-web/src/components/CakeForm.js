@@ -47,7 +47,7 @@ class CakeForm extends React.Component {
           <Media id="logo" object src={Logo} alt="Generic placeholder image" />
         </div>
         <Container>
-          <Card id="card" className="pr-5 pl-5 mb-5">
+          <Card id="card" className="pr-5 pl-5 btm-mar">
             <div className="card-content text-left">
               <Form onSubmit={this.handleFormSubmission}>
 

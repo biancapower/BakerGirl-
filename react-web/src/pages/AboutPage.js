@@ -14,7 +14,7 @@ export default function () {
           <div className="logo">
             <Media id="logo" object src={Logo} alt="Generic placeholder image" />
           </div>
-          <Card id="card" className="pr-5 pl-5">
+          <Card id="card" className="pr-5 pl-5 btm-mar">
             <div className="card-content">
               <CardTitle className="m-5 pt-4">ABOUT</CardTitle>
               <CardText>Creating delicious cakes, macarons and miniature desserts for your special event or just because. Delivering to you all over Sydney.</CardText>

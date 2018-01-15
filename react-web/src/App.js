@@ -90,9 +90,9 @@ export class App extends Component {
               <Route path='/contact' component={ContactPage} />
               <Route path='/gallery' component={GalleryPage} />
               <Route path='/thanks' component={ThanksPage} />
-              <Route path='/cakes' render={
+              <Route path='/admin' render={
                 () => (
-                  <CakesPage cakes={cakes} />
+                  <AdminPage cakes={cakes} />
                 )} />
               <Route path='/' render={
                 () => (

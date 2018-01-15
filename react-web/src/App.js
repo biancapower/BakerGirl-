@@ -67,26 +67,23 @@ export class App extends Component {
       <Router>
         <div>
           <div className="App">
+            {/* NAVBAR */}
             <div color="faded" light expand="md" className="top-navbar">
-              {/* <NavbarBrand href="/">LOGO</NavbarBrand> */}
-              {/* <NavbarToggler onClick={this.toggle} /> */}
-              {/* <Collapse isOpen={this.state.isOpen} navbar> */}
-                <div className="top-nav">
-                  <div className="nav-item">
-                    <NavLink href="/" className="link-text" >Home</NavLink>
-                  </div>
-                  <div className="nav-item">
-                    <NavLink href="/about" className="link-text">About</NavLink>
-                  </div>
-                  <div className="nav-item">
-                    <NavLink href="/gallery" className="link-text">Gallery</NavLink>
-                  </div>
-                  <div className="nav-item">
-                      <NavLink href="/contact" className="link-text">Contact</NavLink>
-                  </div>
+              <div className="top-nav">
+                <div className="nav-item">
+                  <NavLink href="/" className="link-text" >Home</NavLink>
                 </div>
-                {/* </Collapse> */}
+                <div className="nav-item">
+                  <NavLink href="/about" className="link-text">About</NavLink>
+                </div>
+                <div className="nav-item">
+                  <NavLink href="/gallery" className="link-text">Gallery</NavLink>
+                </div>
+                <div className="nav-item">
+                    <NavLink href="/contact" className="link-text">Contact</NavLink>
+                </div>
               </div>
+            </div>
 
             <Switch>
               <Route path='/about' component={AboutPage} />
@@ -104,6 +101,18 @@ export class App extends Component {
               } />
 
             </Switch>
+          </div>
+
+          {/* FOOTER */}
+          <div color="faded" light expand="md" className="footer">
+            <div className="top-nav">
+              <div className="nav-item">
+                <NavLink href="/" className="link-text" >© 2017</NavLink>
+              </div>
+              <div className="nav-item">
+                  <NavLink href="/contact" className="link-text">Admin</NavLink>
+              </div>
+            </div>
           </div>
         </div>
       </Router>

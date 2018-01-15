@@ -8,7 +8,7 @@ import Logo from '../assets/images/Logo.png';
 export default function () {
   return (
     <div>
-    <Jumbotron fluid></Jumbotron>
+    <Jumbotron fixed></Jumbotron>
       <Container>
      <div className="logo">
           <Media id="logo" object src={Logo} alt="Generic placeholder image" />

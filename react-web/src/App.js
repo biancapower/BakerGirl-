@@ -7,7 +7,10 @@ import AdminPage from './pages/AdminPage'
 import GalleryPage from './pages/GalleryPage'
 import ContactPage from './pages/ContactPage'
 import ThanksPage from './pages/ThanksPage'
+import Instagram from './components/Instagram'
+
 import * as cakesAPI from './api/cakes'
+import * as instagramAPI from './api/instagram'
 import {
   Container,
   Collapse,
@@ -38,7 +41,8 @@ export class App extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+      instagramData: null
     };
   }
   toggle() {
@@ -52,17 +56,27 @@ export class App extends Component {
       .then((cakes) => {
         this.setState({ cakes })
       })
+
+    instagramAPI.all()
+      .then((instagramData) => {
+        this.setState (( { instagramData }) => {
+          return { instagramData: instagramData }
+        });
+      })
   }
+
 
   handleCakeSubmission = (cake) => {
-    this.setState(({ cakes }) => {
-      return { cakes: [cake].concat(cakes) }
-    });
-    cakesAPI.save(cake);
-  }
+      this.setState(({ cakes }) => {
+        return { cakes: [cake].concat(cakes) }
+      });
+      cakesAPI.save(cake);
+    }
+
+//render instagram with cakes
 
   render() {
-    const { cakes } = this.state;
+    const { cakes, instagramData } = this.state;
     return (
       <Router>
         <Container>
@@ -91,7 +105,15 @@ export class App extends Component {
             <Switch>
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />
-              <Route path='/gallery' component={GalleryPage} />
+              <Route path='/gallery' render={
+                () => (
+                  <GalleryPage instagramData={instagramData} />
+                )} />
+              <Route path='/' render={
+                () => (
+                  <Instagram instagramData={instagramData} />
+                )
+              } />
               <Route path='/thanks' component={ThanksPage} />
               <Route path='/cakes' render={
                 () => (
@@ -102,7 +124,6 @@ export class App extends Component {
                   <CakeForm onSubmit={this.handleCakeSubmission} />
                 )
               } />
-
             </Switch>
           </div>
         </Container>

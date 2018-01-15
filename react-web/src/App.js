@@ -67,7 +67,7 @@ export class App extends Component {
       <Router>
         <div>
           <div className="App">
-            <Navbar color="faded" light expand="md">
+            <Navbar color="faded" light expand="md" className="top-navbar">
               {/* <NavbarBrand href="/">LOGO</NavbarBrand> */}
               {/* <NavbarToggler onClick={this.toggle} /> */}
               {/* <Collapse isOpen={this.state.isOpen} navbar> */}

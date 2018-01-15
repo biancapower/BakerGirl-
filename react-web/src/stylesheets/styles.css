@@ -26,6 +26,11 @@ body {
   z-index: -2;
 }
 
+.top-navbar {
+  background-color: #F8CBE5;
+  margin-bottom: -5px;
+}
+
 
 /* card */
 

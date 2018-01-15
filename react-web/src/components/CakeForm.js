@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
+import { Redirect, Route, Switch, Link } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input, FormText, Container, Media, Card } from 'reactstrap';
 import Logo from '../assets/images/Logo.png';
 
@@ -31,7 +31,7 @@ class CakeForm extends React.Component {
     const deliveryAddress = elements["deliveryAddress"].value;
     const referral = elements["referral"].value;
     console.log(flavours);
-    
+
     this.setState({ redirect: true });
     this.props.onSubmit({ layers, tiers, flavours, fillings, style, custName, contactNumber, email, eventDate, eventType, servings, delivery, deliveryAddress, referral });
   }
@@ -46,8 +46,8 @@ class CakeForm extends React.Component {
         <div className="logo">
           <Media id="logo" object src={Logo} alt="Generic placeholder image" />
         </div>
-        <Container>  
-          <Card id="card" className="pr-5 pl-5 mb-5">
+        <Container>
+          <Card id="card" className="pr-5 pl-5 btm-mar">
             <div className="card-content text-left">
               <Form onSubmit={this.handleFormSubmission}>
 
@@ -269,11 +269,10 @@ class CakeForm extends React.Component {
                 <div className="text-center mt-5">
                   <Button type="submit">Create Cake! 🍰</Button>
                 </div>
-                
               </Form>
+
             </div>
           </Card>
-
         </Container>
       </div>
     )

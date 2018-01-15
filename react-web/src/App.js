@@ -20,6 +20,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
+  CardFooter,
   DropdownItem
 } from 'reactstrap';
 
@@ -67,35 +68,34 @@ export class App extends Component {
       <Router>
         <div>
           <div className="App">
-            <Navbar color="faded" light expand="md">
-              <NavbarBrand href="/">LOGO</NavbarBrand>
-              <NavbarToggler onClick={this.toggle} />
-              <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto" navbar>
-                  <NavItem>
-                    <NavLink href="/">Home</NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="/about">About</NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="/gallery">Gallery</NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="/contact">Contact</NavLink>
-                  </NavItem>
-                </Nav>
-              </Collapse>
-            </Navbar>
+            {/* NAVBAR */}
+            <div color="faded" light expand="md" className="top-navbar">
+              <div className="top-nav">
+                <div className="nav-item">
+                  <NavLink href="/" className="link-text" >Home</NavLink>
+                </div>
+                <div className="nav-item">
+                  <NavLink href="/about" className="link-text">About</NavLink>
+                </div>
+                <div className="nav-item">
+                  <NavLink href="/gallery" className="link-text">Gallery</NavLink>
+                </div>
+                <div className="nav-item">
+                    <NavLink href="/contact" className="link-text">Contact</NavLink>
+                </div>
+              </div>
+            </div>
+
+
 
             <Switch>
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />
               <Route path='/gallery' component={GalleryPage} />
               <Route path='/thanks' component={ThanksPage} />
-              <Route path='/cakes' render={
+              <Route path='/admin' render={
                 () => (
-                  <CakesPage cakes={cakes} />
+                  <AdminPage cakes={cakes} />
                 )} />
               <Route path='/' render={
                 () => (
@@ -104,6 +104,10 @@ export class App extends Component {
               } />
 
             </Switch>
+          </div>
+          <div color="faded" light expand="md" className="footer text-center">
+                <Link to="/" className="link-text px-5" >© 2018 </Link>
+                <Link to="/admin" className="link-text px-5">Admin</Link>
           </div>
         </div>
       </Router>

@@ -12,7 +12,7 @@ export default function () {
         <div className="logo">
           <Media id="logo" object src={Logo} alt="Generic placeholder image" />
         </div>
-        <Card id="card" className="pr-5 pl-5">
+        <Card id="card" className="pr-5 pl-5 btm-mar">
           <div className="card-content">
             <CardTitle className="m-5 pt-4">Contact</CardTitle>
             <CardText>Email: hello.bakergirl@gmail.com</CardText>

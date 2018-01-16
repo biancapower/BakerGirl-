@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
 body {
   background-color: #FFF7FB;
+  font-family: 'Roboto', sans-serif;
 }
 
+.btm-mar {
+  margin-bottom: 100px;
+}
 
 /* logo and jumbotron */
 
@@ -14,13 +19,53 @@ body {
     right: 0;
     bottom: 0;
     width: 200px;
-    margin-top: 180px;
+    margin-top: 240px;
 }
 
-.jumbotron {
+.header-background {
   background-image: url('../assets/images/BackgroundPicture.png');
+  background-size: cover;
   height: 250px;
   z-index: -2;
+}
+
+.top-navbar {
+  background-color: #F8CBE5;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  background-color: #F8CBE5;
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.top-nav {
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  text-align: center;
+}
+
+.nav-item {
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
+}
+
+.link-text {
+  color: #724085;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+  width: 80px;
+  text-align: center;
 }
 
 
@@ -29,12 +74,12 @@ body {
 .card {
   text-align: center;
   position: absolute;
-  left: 50%;
-  top: 35%;
-  height: 400px;
+  left: 25%;
+  top: 150px;
+  height: auto;
   margin-top: 200px;
-  width: 400px;
-  margin-left: -200px;
+  padding-bottom: 150px;
+  width: 50%;
   z-index: -1;
   background-color: #E8C7A9;
 }
@@ -42,4 +87,44 @@ body {
 .card-content {
   margin-top: 80px;
   color: #724085;
+}
+
+.admin-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.admin-table tr:hover {background-color: rgb(221, 221, 221);}
+
+.admin-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.admin-table th {
+  background-color: pink;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.admin-table td, .admin-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.admin-pg-q {
+  font-weight: bold;
+}
+
+.admin-pg-a {
+  /* padding-left: 20%; */
+}
+
+@media (max-width: 900px) {
+
+  .card {
+    width: 80%;
+    left: 10%;
+
+  }
 }

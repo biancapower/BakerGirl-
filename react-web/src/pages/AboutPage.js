@@ -1,25 +1,28 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
+import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardFooter } from 'reactstrap';
+import { Route, Switch, Link } from 'react-router-dom';
 import { Media } from 'reactstrap';
 import BackgroundPicture from '../assets/images/BackgroundPicture.png';
 import Logo from '../assets/images/Logo.png';
 
-
 export default function () {
   return (
     <div>
-    <Jumbotron fixed></Jumbotron>
-      <Container>
-     <div className="logo">
-          <Media id="logo" object src={Logo} alt="Generic placeholder image" />
-     </div>
-        <Card id="card">
-          <div className="card-content">
-              <CardTitle>ABOUT</CardTitle>
-              <CardText>Creating delicious cakes, macarons and miniature desserts for your special event or just because. Delivering to you all over Sydney.</CardText>
+      <div className="header-background"></div>
+      <div>
+        <Container>
+          <div className="logo">
+            <Media id="logo" object src={Logo} alt="Generic placeholder image" />
           </div>
-        </Card>
-      </Container>
+          <Card id="card" className="pr-5 pl-5 btm-mar">
+            <div className="card-content">
+              <CardTitle className="m-5 pt-4">ABOUT</CardTitle>
+              <CardText>Creating delicious cakes, macarons and miniature desserts for your special event or just because. Delivering to you all over Sydney.</CardText>
+            </div>
+          </Card>
+        </Container>
     </div>
+  </div>
+
   )
 }

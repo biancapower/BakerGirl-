@@ -35,14 +35,14 @@ app.get('/', (req, res) => {
 
 
 //import instagram
-var ig = require('instagram-node').instagram();
-
-var igOptions = {
-    client_id: 'd200517f5f434f73b6b8b4478f9f7eda',
-    client_secret: '82edca82229e4a49a6251c1dc04dbf9d'
-}
-
-redirectUri = 'http://localhost:7000/handleAuth'
+// var ig = require('instagram-node').instagram();
+//
+// var igOptions = {
+//     client_id: 'd200517f5f434f73b6b8b4478f9f7eda',
+//     client_secret: '82edca82229e4a49a6251c1dc04dbf9d'
+// }
+//
+// redirectUri = 'http://localhost:7000/handleAuth'
 
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'jade');

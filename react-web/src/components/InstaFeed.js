@@ -21,7 +21,7 @@ class InstaFeed extends React.Component {
           target={instafeedTarget}
           template="
                     <a href='{{link}}' target='_blank' class='instafeed__item'>
-                      <img class='instafeed__item__background col-2 m-3' src='{{image}}' />
+                      <img class='instafeed__item__background col-sm-5 col-md-2 m-3' src='{{image}}' />
                     </a>
            "
           userId={instaUserId}

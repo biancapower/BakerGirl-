@@ -2,6 +2,9 @@ import React from 'react';
 import Instafeed from 'react-instafeed';
 import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
 
+const instaUserId = `${process.env.REACT_APP_INSTA_USER_ID}`;
+const instaClientId = `${process.env.REACT_APP_INSTA_CLIENT_ID}`;
+const instaAccessToken = `${process.env.REACT_APP_INSTA_ACCESS_TOKEN}`;
 
 //import Instafeed from 'react-instafeed';
 
@@ -11,7 +14,7 @@ class InstaFeed extends React.Component {
     return (
       <div id={instafeedTarget}>
         <Instafeed
-          limit='5'
+          limit='100'
           ref='instafeed'
           resolution='standard_resolution'
           sortBy='most-recent'
@@ -21,9 +24,9 @@ class InstaFeed extends React.Component {
                       <img class='instafeed__item__background col-2 m-3' src='{{image}}' />
                     </a>
            "
-          userId='3094190558'
-          clientId='9b93b988b45e4a899f8595fceceba014'
-          accessToken='3094190558.1677ed0.1dc7b816456d4941b697f03c3cef4b47'
+          userId={instaUserId}
+          clientId={instaClientId}
+          accessToken={instaAccessToken}
         />
       </div>
     )

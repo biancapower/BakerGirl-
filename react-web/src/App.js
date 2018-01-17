@@ -7,6 +7,7 @@ import AdminPage from './pages/AdminPage'
 import GalleryPage from './pages/GalleryPage'
 import ContactPage from './pages/ContactPage'
 import ThanksPage from './pages/ThanksPage'
+import CakeButton from './components/CakeButton'
 import * as cakesAPI from './api/cakes'
 import {
   Container,
@@ -97,9 +98,14 @@ export class App extends Component {
                 () => (
                   <AdminPage cakes={cakes} />
                 )} />
-              <Route path='/' render={
+              <Route path='/CreateACake' render={
                 () => (
                   <CakeForm onSubmit={this.handleCakeSubmission} />
+                )
+              } />
+              <Route path='/' render={
+                () => (
+                  <CakeButton />
                 )
               } />
 

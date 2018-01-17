@@ -1,5 +1,5 @@
 import React from 'react';
-import Instafeed from '../react-instafeed/src/index';
+import Instafeed from 'react-instafeed';
 import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
 
 

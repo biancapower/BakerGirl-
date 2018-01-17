@@ -8,7 +8,7 @@ export default function CakeButton() {
     <Switch>
       <Route>
     <div>
-      <Jumbotron>
+      <Jumbotron className="home-jumbo">
 
           <h1 className="display-5">Hello, world!</h1>
           <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>

@@ -23,6 +23,11 @@ body {
     margin-top: 240px;
 }
 
+.home-jumbo {
+  background-image: url('../assets/images/JumboPicture.jpg');
+  background-size: cover;
+}
+
 .header-background {
   background-image: url('../assets/images/BackgroundPicture.png');
   background-size: cover;

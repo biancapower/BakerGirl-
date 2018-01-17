@@ -15,7 +15,8 @@ export default function CakeButton() {
           <hr className="my-2" />
           <p>It uses utility classes for typgraphy and spacing to space content out within the larger container.</p>
           <p className="lead">
-            <Link to="/CreateACake">Create A Cake</Link>
+            <Button class="primary">  <Link to="/CreateACake">Create A Cake</Link></Button>
+
           </p>
         </Jumbotron>
     </div>

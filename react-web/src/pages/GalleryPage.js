@@ -5,6 +5,8 @@ import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'react
 
 export default function () {
   return (
-    <InstaFeed />
+    <div className="pb-5">
+      <InstaFeed />
+    </div>
   )
 }

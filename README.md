@@ -47,22 +47,22 @@ Once cloned from github a few steps need to be taken to get the application up a
 ![ERD](/documentation/Images/BakerGirlERD.png)
 
 ## Wireframes ##
-![Landing Mobile](/documentation/Images/BakerGirl Landing Mobile.png)
+![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)
 
-![Landing Desktop](/documentation/Images/BakerGirl Landing Desktop.png)
+![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)
 
-![Gallery Mobile](/documentation/Images/BakerGirl Gallery Mobile.png)
+![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)
 
-![Gallery Desktop](/documentation/Images/BakerGirl Gallery Desktop.png)
+![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)
 
-![Contact Mobile](/documentation/Images/BakerGirl Contact Mobile.png)
+![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)
 
-![Contact Desktop](/documentation/Images/BakerGirl Contact Desktop.png)
+![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)
 
-![Admin Mobile](/documentation/Images/BakerGirl Admin Mobile.png)
+![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)
 
-![Admin Desktop](/documentation/Images/BakerGirl Admin Desktop.png)
+![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)
 
-![About Mobile](/documentation/Images/BakerGirl About Mobile.png)
+![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)
 
-![About Desktop](/documentation/Images/BakerGirl About Desktop.png)
+![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)

@@ -23,6 +23,23 @@ body {
     margin-top: 240px;
 }
 
+.home-jumbo {
+  background-image: url('../assets/images/cupcakes_2.jpeg');
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+
+.button {
+  background-color: #F8CBE5;
+  color: #724085;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+
 .header-background {
   background-image: url('../assets/images/BackgroundPicture.png');
   background-size: cover;

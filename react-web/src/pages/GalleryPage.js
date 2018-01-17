@@ -5,7 +5,7 @@ import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'react
 
 export default function () {
   return (
-    <Container>
+    <Container className="cont">
       <Col>
         <Row className="m-5 text-center">
           <InstaFeed />

@@ -36,9 +36,14 @@ body {
 }
 
 .button:hover {
-  text-decoration: none;
+  background-color: #F8CBE5;
+  color: #724085;
 }
 
+.button:active {
+  background-color: #F8CBE5 !important;
+  color: #724085 !important;
+}
 
 .header-background {
   background-image: url('../assets/images/BackgroundPicture.png');

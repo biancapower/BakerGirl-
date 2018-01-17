@@ -5,8 +5,14 @@ import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'react
 
 export default function () {
   return (
-    <div className="pb-5">
-      <InstaFeed />
+    <div className="page-g">
+      <Container>
+        <Col>
+          <Row>
+            <InstaFeed />
+          </Row>   
+        </Col>
+      </Container>
     </div>
   )
 }

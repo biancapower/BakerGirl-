@@ -17,15 +17,9 @@ class InstaFeed extends React.Component {
           sortBy='most-recent'
           target={instafeedTarget}
           template="
-              <div class='container-fluid'>
-                <div class='col-12'>
-                  <div class='row text-center m-5'>
                     <a href='{{link}}' target='_blank' class='instafeed__item'>
-                      <img class='instafeed__item__background' src='{{image}}' />
+                      <img class='instafeed__item__background col-3' src='{{image}}' />
                     </a>
-                  </div>
-                </div>
-              </div>
            "
           userId='3094190558'
           clientId='9b93b988b45e4a899f8595fceceba014'

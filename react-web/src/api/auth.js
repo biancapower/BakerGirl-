@@ -1,4 +1,4 @@
-import decodeJWT from 'jwt-decode'
+
 
 const AUTH_API_URL=`${process.env.REACT_APP_API_URL}/auth`
 const TOKEN_KEY = 'token'
@@ -12,11 +12,11 @@ function setToken(token) {
 }
 
 
-export const decodeToken = () => {
-  if (isSignedIn()) {
-    return decodeJWT(token())
-  }
-}
+// export const decodeToken = () => {
+//   if (isSignedIn()) {
+//     return decodeJWT(token())
+//   }
+// }
 
 
 export function token() {

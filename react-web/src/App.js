@@ -9,6 +9,7 @@ import ContactPage from './pages/ContactPage'
 import ThanksPage from './pages/ThanksPage'
 import CakeButton from './components/CakeButton'
 import * as cakesAPI from './api/cakes'
+import * as auth from './api/auth'
 import {
   Container,
   Collapse,
@@ -63,6 +64,26 @@ export class App extends Component {
     cakesAPI.save(cake);
   }
 
+  handleSignIn = (event) => {
+  event.preventDefault()
+  const form = event.target
+  const elements = form.elements
+  const email = elements.email.value
+  const password = elements.password.value
+  auth.signIn({ email, password })
+    .then(() => {
+      cakesAPI.all()
+        .then(cakes => {
+          this.setState({ cakes })
+        })
+    })
+}
+
+handleSignOut = () => {
+  auth.signOut()
+  this.setState({ cakes: null })
+}
+
   render() {
     const { cakes } = this.state;
     return (
@@ -83,6 +104,11 @@ export class App extends Component {
                 </div>
                 <div className="nav-item">
                     <NavLink href="/contact" className="link-text">Contact</NavLink>
+                </div>
+                <div className="nav-item">
+                  <Link to='/signin'>Sign In</Link>
+                    &nbsp;
+                  <Link to='/signout'>Sign Out</Link>
                 </div>
               </div>
             </div>
@@ -108,6 +134,19 @@ export class App extends Component {
                   <CakeButton />
                 )
               } />
+
+
+                          <Route path='/signin' render={() => (
+                            <div>
+                              { auth.isSignedIn() && <Redirect to='/movies'/> }
+                              <SignInForm onSignIn={ this.handleSignIn }/>
+                            </div>
+                          )}/>
+
+                          <Route path='/signout' render={() => (
+                            <SignOutForm onSignOut={ this.handleSignOut }/>
+                          )}/>
+
 
             </Switch>
             <div color="faded" light expand="md" className="footer text-center">

@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router, Route, Link, Switch, Redirect
+} from 'react-router-dom'
+
 import './stylesheets/styles.css';
 import CakesPage from './pages/CakesPage';
 import CakeForm from './components/CakeForm'
@@ -8,6 +12,8 @@ import GalleryPage from './pages/GalleryPage'
 import ContactPage from './pages/ContactPage'
 import ThanksPage from './pages/ThanksPage'
 import CakeButton from './components/CakeButton'
+import SignInForm from './components/SignInForm'
+import SignOutForm from './components/SignOutForm'
 import * as cakesAPI from './api/cakes'
 import * as auth from './api/auth'
 import {
@@ -26,16 +32,12 @@ import {
   DropdownItem
 } from 'reactstrap';
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch
-} from 'react-router-dom'
 
 
 
 export class App extends Component {
+  state = { cakes: null }
+
   constructor(props) {
     super(props);
 
@@ -44,6 +46,7 @@ export class App extends Component {
       isOpen: false
     };
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
@@ -57,11 +60,18 @@ export class App extends Component {
       })
   }
 
+  // handleCakeSubmission = (cake) => {
+  //   this.setState(({ cakes }) => {
+  //     return { cakes: [cake].concat(cakes) }
+  //   });
+  //   cakesAPI.save(cake);
+  // }
+
   handleCakeSubmission = (cake) => {
-    this.setState(({ cakes }) => {
-      return { cakes: [cake].concat(cakes) }
-    });
-    cakesAPI.save(cake);
+  cakesAPI.save(cake);
+  this.setState(({ cakes }) => (
+    { cakes: [cake].concat(cakes) }
+  ));
   }
 
   handleSignIn = (event) => {
@@ -116,6 +126,10 @@ handleSignOut = () => {
 
 
             <Switch>
+              <Route path='/admin' render={() => (
+                          <AboutPage token={ auth.token() }/>
+                        )}/>
+
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />
               <Route path='/gallery' component={GalleryPage} />
@@ -129,25 +143,23 @@ handleSignOut = () => {
                   <CakeForm onSubmit={this.handleCakeSubmission} />
                 )
               } />
+
               <Route path='/' render={
                 () => (
                   <CakeButton />
                 )
               } />
 
+              <Route path='/signin' render={() => (
+                <div>
+                  { auth.isSignedIn() && <Redirect to='/admin'/> }
+                  <SignInForm onSignIn={ this.handleSignIn }/>
+                </div>
+              )}/>
 
-                          <Route path='/signin' render={() => (
-                            <div>
-                              { auth.isSignedIn() && <Redirect to='/movies'/> }
-                              <SignInForm onSignIn={ this.handleSignIn }/>
-                            </div>
-                          )}/>
-
-                          <Route path='/signout' render={() => (
-                            <SignOutForm onSignOut={ this.handleSignOut }/>
-                          )}/>
-
-
+              <Route path='/signout' render={() => (
+                <SignOutForm onSignOut={ this.handleSignOut }/>
+              )}/>
             </Switch>
             <div color="faded" light expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>

@@ -123,11 +123,9 @@ handleSignOut = () => {
               </div>
             </div>
 
-
-
             <Switch>
               <Route path='/admin' render={() => (
-                          <AboutPage token={ auth.token() }/>
+                          <AdminPage token={ auth.token() }/>
                         )}/>
 
               <Route path='/about' component={AboutPage} />

@@ -2,10 +2,14 @@ import React from 'react'
 import CakeList from '../components/CakeList'
 import { Route, Switch } from 'react-router-dom'
 import Cake from '../components/Cake'
+import decodeJWT from 'jwt-decode'
 
 
-export default ({ cakes }) => {
-  return (
+
+export default ({ cakes, token }) => {
+  try {
+    const decodedToken = decodeJWT(token)
+    return (
 
     cakes ? (
 
@@ -28,4 +32,7 @@ export default ({ cakes }) => {
 
     ) : ("loading..")
   )
+  } catch (err) {
+  return null
+  }
 }

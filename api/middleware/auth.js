@@ -1,5 +1,6 @@
 const passport = require('passport');
 const JWT = require('jsonwebtoken');
+const PassportJWT = require('passport-jwt');
 const User = require('../models/user');
 
 passport.use(User.createStrategy());

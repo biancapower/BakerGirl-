@@ -25,4 +25,4 @@ function SignInForm({ onSignIn }) {
   )
 }
 
-export default SignInForm
+export default SignInForm;

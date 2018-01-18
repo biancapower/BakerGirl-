@@ -138,12 +138,6 @@ handleSignOut = () => {
                 )
               } />
 
-              {/* <Route path='/' render={
-                () => (
-                  <CakeButton />
-                )
-              } /> */}
-
               <Route path='/signin' render={() => (
                 <div>
                   { auth.isSignedIn() && <Redirect to='/signin'/> }
@@ -154,6 +148,13 @@ handleSignOut = () => {
               <Route path='/signout' render={() => (
                 <SignOutForm onSignOut={ this.handleSignOut }/>
               )}/>
+
+              <Route path='/' render={
+                () => (
+                  <CakeButton />
+                )
+              } />
+
             </Switch>
             <div color="faded" light expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>

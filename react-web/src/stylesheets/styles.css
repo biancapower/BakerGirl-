@@ -36,9 +36,14 @@ body {
 }
 
 .button:hover {
-  text-decoration: none;
+  background-color: #F8CBE5;
+  color: #724085;
 }
 
+.button:active {
+  background-color: #F8CBE5 !important;
+  color: #724085 !important;
+}
 
 .header-background {
   background-image: url('../assets/images/BackgroundPicture.png');
@@ -136,6 +141,10 @@ body {
 
 .admin-pg-a {
   /* padding-left: 20%; */
+}
+
+.cont {
+  min-width: 100%;
 }
 
 @media (max-width: 900px) {

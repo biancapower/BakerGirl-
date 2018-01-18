@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react';
+import InstaFeed from '../components/InstaFeed';
+import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
+
 
 export default function () {
   return (
-    <span>WELCOME TO GALLERY</span>
+    <Container className="cont">
+      <Col>
+        <Row className="m-5 text-center">
+          <InstaFeed />
+        </Row>   
+      </Col>
+    </Container>
   )
 }

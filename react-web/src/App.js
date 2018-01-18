@@ -8,7 +8,9 @@ import GalleryPage from './pages/GalleryPage'
 import ContactPage from './pages/ContactPage'
 import ThanksPage from './pages/ThanksPage'
 import CakeButton from './components/CakeButton'
+import SignInForm from './components/SignInForm'
 import * as cakesAPI from './api/cakes'
+import * as auth from './api/auth'
 import {
   Container,
   Collapse,
@@ -28,6 +30,7 @@ import {
 import {
   BrowserRouter as Router,
   Route,
+  Redirect,
   Link,
   Switch
 } from 'react-router-dom'
@@ -62,6 +65,27 @@ export class App extends Component {
     });
     cakesAPI.save(cake);
   }
+
+  handleSignIn = (event) => {
+  event.preventDefault()
+  const form = event.target
+  const elements = form.elements
+  const email = elements.email.value
+  const password = elements.password.value
+  auth.signIn({ email, password })
+    .then(() => {
+      cakesAPI.all()
+        .then(cakes => {
+          this.setState({ cakes })
+        })
+    })
+}
+
+  handleSignOut = () => {
+    auth.signOut()
+    this.setState({ cakes: null })
+  }
+
 
   render() {
     const { cakes } = this.state;
@@ -98,6 +122,12 @@ export class App extends Component {
                 () => (
                   <AdminPage cakes={cakes} />
                 )} />
+                <Route path='/signin' render={() => (
+                  <div>
+                    {auth.isSignedIn()}
+                    <SignInForm onSignIn={this.handleSignIn}/>
+                  </div>
+                )}/>
               <Route path='/CreateACake' render={
                 () => (
                   <CakeForm onSubmit={this.handleCakeSubmission} />
@@ -112,7 +142,7 @@ export class App extends Component {
             </Switch>
             <div color="faded" light expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
-                  <Link to="/admin" className="link-text px-5">Admin</Link>
+                  <Link to="/signin" className="link-text px-5">sign in</Link>
             </div>
           </div>
         </div>

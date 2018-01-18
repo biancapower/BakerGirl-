@@ -124,17 +124,13 @@ handleSignOut = () => {
             </div>
 
             <Switch>
-              <Route path='/admin' render={() => (
-                          <AdminPage token={ auth.token() }/>
-                        )}/>
-
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />
               <Route path='/gallery' component={GalleryPage} />
               <Route path='/thanks' component={ThanksPage} />
               <Route path='/admin' render={
                 () => (
-                  <AdminPage cakes={cakes} />
+                  <AdminPage token={ auth.token() } cakes={cakes} />
                 )} />
               <Route path='/CreateACake' render={
                 () => (
@@ -142,15 +138,15 @@ handleSignOut = () => {
                 )
               } />
 
-              <Route path='/' render={
+              {/* <Route path='/' render={
                 () => (
                   <CakeButton />
                 )
-              } />
+              } /> */}
 
               <Route path='/signin' render={() => (
                 <div>
-                  { auth.isSignedIn() && <Redirect to='/admin'/> }
+                  { auth.isSignedIn() && <Redirect to='/signin'/> }
                   <SignInForm onSignIn={ this.handleSignIn }/>
                 </div>
               )}/>

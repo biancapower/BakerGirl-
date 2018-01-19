@@ -158,7 +158,7 @@ handleSignOut = () => {
             </Switch>
             <div color="faded" light expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
-                  <Link to="/admin" className="link-text px-5">Admin</Link>
+                  <Link to="/signin" className="link-text px-5">Admin</Link>
             </div>
           </div>
         </div>

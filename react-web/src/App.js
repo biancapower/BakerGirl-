@@ -135,7 +135,7 @@ handleSignOut = () => {
 
             <Route path='/signin' render={() => (
                 <div>
-                  { auth.isSignedIn() && <Redirect to='/signin'/> }
+                  { auth.isSignedIn() && <Redirect to='/admin'/> }
                   <SignInForm onSignIn={ this.handleSignIn }/>
                 </div>
               )}/>

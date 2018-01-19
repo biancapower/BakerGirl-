@@ -116,7 +116,7 @@ handleSignOut = () => {
                     <NavLink href="/contact" className="link-text">Contact</NavLink>
                 </div>
                 <div className="nav-item">
-                  <Link to='/signin'>Sign In</Link>
+                  <Link to='/signin'>Admin</Link>
                     &nbsp;
                   <Link to='/signout'>Sign Out</Link>
                 </div>
@@ -138,7 +138,7 @@ handleSignOut = () => {
                 )
               } />
 
-              <Route path='/signin' render={() => (
+            <Route path='/signin' render={() => (
                 <div>
                   { auth.isSignedIn() && <Redirect to='/signin'/> }
                   <SignInForm onSignIn={ this.handleSignIn }/>
@@ -158,7 +158,7 @@ handleSignOut = () => {
             </Switch>
             <div color="faded" light="true" expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
-                <Link to="/admin" className="link-text px-5">Admin</Link>
+                  <Link to="/signin" className="link-text px-5">Admin</Link>
             </div>
           </div>
         </div>

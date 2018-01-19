@@ -1,5 +1,5 @@
 import React from 'react';
-import Instafeed from 'react-instafeed';
+import Instafeed from '../react-instafeed/src/index';
 import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
 
 const instaUserId = `${process.env.REACT_APP_INSTA_USER_ID}`;

@@ -1,0 +1,3 @@
+[submodule "react-web/src/react-instafeed"] 
+  path = react-web/src/react-instafeed 
+  url = https://github.com/biancapower/react-instafeed.git

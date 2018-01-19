@@ -1,6 +1,6 @@
 import React from 'react'
 import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardFooter, Media } from 'reactstrap';
-import BackgroundPicture from '../assets/images/BackgroundPicture.png';
+import BackgroundPicture from '../assets/images/BackgroundPicture2.jpeg';
 import Logo from '../assets/images/Logo.png';
 
 export default function () {

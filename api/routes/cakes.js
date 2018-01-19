@@ -1,6 +1,6 @@
 const express = require('express');
 const Cake = require('../models/cake');
-const Person = require('../models/person');
+
 
 const router = express.Router();
 
@@ -15,10 +15,6 @@ const authorize = (req, res, next) => {
 
 router.get('/', (req, res) => {
   Cake.find()
-    .populate('director')
-    .populate('crew.person')
-    .populate('cast.actor')
-    .populate('cast.character')
     .then(cakes => res.json(cakes))
     .catch(error => res.json({ error }))
 });

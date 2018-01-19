@@ -54,7 +54,8 @@ body {
 
 .top-navbar {
   /* background-color: #F8CBE5; */
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #232323;
   margin-bottom: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -62,7 +63,8 @@ body {
 
 .footer {
   /* background-color: #F8CBE5; */
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #232323;
   position: fixed;
   height: 60px;
   bottom: 0;
@@ -93,6 +95,20 @@ body {
   text-align: center;
 }
 
+a:hover {
+  color: #F8CBE5;
+}
+
+.display-6 {
+  color: #232323;
+  font-weight: bold;
+}
+
+.lead {
+  color: #232323;
+  font-weight: bold;
+}
+
 
 /* card */
 
@@ -106,7 +122,7 @@ body {
   padding-bottom: 150px;
   width: 50%;
   z-index: -1;
-  background-color: #E8C7A9;
+  background-color: #d5f2f1;
 }
 
 .card-content {

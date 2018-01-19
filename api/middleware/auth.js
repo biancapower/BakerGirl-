@@ -1,10 +1,11 @@
 const passport = require('passport');
 const JWT = require('jsonwebtoken');
+const PassportJWT = require('passport-jwt');
 const User = require('../models/user');
 
 passport.use(User.createStrategy());
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
+// passport.serializeUser(User.serializeUser());
+// passport.deserializeUser(User.deserializeUser());
 
 function register(req, res, next) {
   const user = new User({
@@ -24,6 +25,27 @@ function register(req, res, next) {
     next();
   })
 }
+
+passport.use(new PassportJWT.Strategy(
+  {
+    jwtFromRequest: PassportJWT.ExtractJwt.fromAuthHeaderAsBearerToken(),
+    secretOrKey: 'topsecret',
+    algorithms: [ 'HS256' ]
+  },
+  (payload, done) => {
+    User.findById(payload.sub)
+      .then((user) => {
+        if (user) {
+          done(null, user)
+        } else {
+          done(null, false)
+        }
+      })
+      .catch((error) => {
+        done(error, false)
+      });
+  }
+));
 
 function signJWTForUser(req, res) {
   const user = req.user;
@@ -46,5 +68,6 @@ module.exports = {
   initialize: [ passport.initialize(), passport.session() ],
   register,
   signJWTForUser,
-  signIn: passport.authenticate('local', { session: true })
+  signIn: passport.authenticate('local', { session: true }),
+  requireJWT: passport.authenticate('jwt', { session: false })
 }

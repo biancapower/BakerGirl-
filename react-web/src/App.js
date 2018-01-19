@@ -115,11 +115,6 @@ handleSignOut = () => {
                 <div className="nav-item">
                     <NavLink href="/contact" className="link-text">Contact</NavLink>
                 </div>
-                <div className="nav-item">
-                  <Link to='/signin'>Admin</Link>
-                    &nbsp;
-                  <Link to='/signout'>Sign Out</Link>
-                </div>
               </div>
             </div>
 
@@ -159,6 +154,7 @@ handleSignOut = () => {
             <div color="faded" light="true" expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
                   <Link to="/signin" className="link-text px-5">Admin</Link>
+                  <Link to='/signout' className="link-text px-5">Sign Out</Link>
             </div>
           </div>
         </div>

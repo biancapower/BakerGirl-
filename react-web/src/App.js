@@ -101,7 +101,7 @@ handleSignOut = () => {
         <div>
           <div className="App">
             {/* NAVBAR */}
-            <div color="faded" light expand="md" className="top-navbar">
+            <div color="faded" light="true" expand="md" className="top-navbar">
               <div className="top-nav">
                 <div className="nav-item">
                   <NavLink href="/" className="link-text" >Home</NavLink>
@@ -156,9 +156,9 @@ handleSignOut = () => {
               } />
 
             </Switch>
-            <div color="faded" light expand="md" className="footer text-center">
+            <div color="faded" light="true" expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
-                  <Link to="/signin" className="link-text px-5">Admin</Link>
+                <Link to="/admin" className="link-text px-5">Admin</Link>
             </div>
           </div>
         </div>

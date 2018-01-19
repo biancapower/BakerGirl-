@@ -14,12 +14,12 @@ router.post('/signin',
   authMiddleware.signIn,
   authMiddleware.signJWTForUser
 );
-
-router.get('/cakes',
-  authMiddleware.signIn,
-  (req, res) => {
-    res.send({ cakes: ['Cakes!'] })
-  }
-);
+// 
+// router.get('/cakes',
+//   authMiddleware.signIn,
+//   (req, res) => {
+//     res.send({ cakes: ['Cakes!'] })
+//   }
+// );
 
 module.exports = router;

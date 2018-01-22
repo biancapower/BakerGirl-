@@ -4,7 +4,7 @@ import Cake from './Cake'
 export default function CakeList({ cakes }) {
   return (
     <div>
-      <h1>Cake List!</h1>
+      <h1><strong>Cake Orders</strong></h1>
       {
         cakes.map(cake => {
           console.log(cake)

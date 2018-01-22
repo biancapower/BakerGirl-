@@ -109,6 +109,10 @@ a:hover {
   font-weight: bold;
 }
 
+.admin-pg-container {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
 
 /* card */
 
@@ -155,6 +159,7 @@ a:hover {
 
 .admin-pg-q {
   font-weight: bold;
+  width: 200px;
 }
 
 .admin-pg-a {

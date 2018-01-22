@@ -118,6 +118,10 @@ a:hover {
 
 }
 
+.admin-pg-container {
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
 
 /* card */
 
@@ -164,6 +168,7 @@ a:hover {
 
 .admin-pg-q {
   font-weight: bold;
+  width: 200px;
 }
 
 .admin-pg-a {
@@ -172,6 +177,11 @@ a:hover {
 
 .cont {
   min-width: 100%;
+}
+
+#insta-logo {
+  width: 55px;
+  padding-right: 20px;
 }
 
 @media (max-width: 900px) {

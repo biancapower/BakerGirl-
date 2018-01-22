@@ -3,6 +3,8 @@ import CakeList from '../components/CakeList'
 import { Route, Switch } from 'react-router-dom'
 import Cake from '../components/Cake'
 import decodeJWT from 'jwt-decode'
+import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardFooter, Media } from 'reactstrap';
+
 
 
 
@@ -23,9 +25,9 @@ export default ({ cakes, token }) => {
         } />
         <Route path='/admin' render={
           () => (
-            <div>
+            <Container className="admin-pg-container">
               <CakeList cakes={cakes} />
-            </div>
+            </Container>
           )
         } />
       </Switch>

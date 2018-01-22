@@ -94,8 +94,12 @@ handleSignOut = () => {
   this.setState({ cakes: null })
 }
 
+
+
   render() {
     const { cakes } = this.state;
+    const isSignedIn = this.state.isSignedIn;
+
     return (
       <Router>
         <div>
@@ -115,11 +119,6 @@ handleSignOut = () => {
                 <div className="nav-item">
                     <NavLink href="/contact" className="link-text">Contact</NavLink>
                 </div>
-                <div className="nav-item">
-                  <Link to='/signin'>Sign In</Link>
-                    &nbsp;
-                  <Link to='/signout'>Sign Out</Link>
-                </div>
               </div>
             </div>
 
@@ -138,9 +137,9 @@ handleSignOut = () => {
                 )
               } />
 
-              <Route path='/signin' render={() => (
+            <Route path='/signin' render={() => (
                 <div>
-                  { auth.isSignedIn() && <Redirect to='/signin'/> }
+                  { auth.isSignedIn() && <Redirect to='/admin'/> }
                   <SignInForm onSignIn={ this.handleSignIn }/>
                 </div>
               )}/>
@@ -158,7 +157,10 @@ handleSignOut = () => {
             </Switch>
             <div color="faded" light="true" expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
-                <Link to="/admin" className="link-text px-5">Admin</Link>
+                  <Link to="/signin" className="link-text px-5">Admin</Link>
+
+                <span>  { auth.isSignedIn() && <Link to='/signout' className="link-text px-5">Sign Out</Link> } </span>
+
             </div>
           </div>
         </div>

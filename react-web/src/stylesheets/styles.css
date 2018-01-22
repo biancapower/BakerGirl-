@@ -24,15 +24,22 @@ body {
 }
 
 .home-jumbo {
-  background-image: url('../assets/images/cupcakes_2.jpg');
+  background-image: url('../assets/images/cupcakes_filtered.png');
   background-size: cover;
-  height: 600px;
+  height: 700px;
   color: white;
 }
 
+.intro {
+  top: 70%;
+  position: relative;
+  text-align: center;
+  /* background-color: rgba(225, 244, 244, 0.8); */
+}
 .button {
-  background-color: #F8CBE5;
-  color: #724085;
+  background-color: #f2d0e6;
+  color: ##fefcff;
+  border: none;
 }
 
 .button:hover {
@@ -66,7 +73,7 @@ body {
   /* background-color: #000; */
   background-color: #232323;
   position: fixed;
-  height: 60px;
+  height: 65px;
   bottom: 0;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -107,6 +114,8 @@ a:hover {
 .lead {
   color: #232323;
   font-weight: bold;
+  text-align: justify;
+
 }
 
 
@@ -122,7 +131,7 @@ a:hover {
   padding-bottom: 150px;
   width: 50%;
   z-index: -1;
-  background-color: #d5f2f1;
+  background-color: #f7ffff;
 }
 
 .card-content {

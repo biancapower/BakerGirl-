@@ -5,19 +5,17 @@ import Logo from '../assets/images/Logo.png';
 
 export default function CakeButton() {
   return (
-    <Switch>
-      <Route>
     <div>
       <Jumbotron className="home-jumbo">
+        <Media id="logo" object src={Logo} alt="Baker Girl Logo" />
 
-          <h1 className="display-6">BAKERGIRL</h1>
-          <p className="lead">Hi I'm Erin and welcome to BakerGirl, a home for all things sweet</p>
+        <div className="intro">
+
+          <p className="lead text-center">Welcome to BakerGirl! A home for all things sweet and delicious.<br /> Ready to customize your dream cake?<br /> Click Below!</p>
 
           <Link to="/CreateACake"><Button className="button">Create A Cake</Button></Link>
-
-        </Jumbotron>
+        </div>
+      </Jumbotron>
     </div>
-  </Route>
-    </Switch>
   );
 };

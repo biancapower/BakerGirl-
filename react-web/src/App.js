@@ -94,8 +94,12 @@ handleSignOut = () => {
   this.setState({ cakes: null })
 }
 
+
+
   render() {
     const { cakes } = this.state;
+    const isSignedIn = this.state.isSignedIn;
+
     return (
       <Router>
         <div>
@@ -154,7 +158,9 @@ handleSignOut = () => {
             <div color="faded" light="true" expand="md" className="footer text-center">
                   <Link to="/" className="link-text px-5" >© 2018 </Link>
                   <Link to="/signin" className="link-text px-5">Admin</Link>
-                  <Link to='/signout' className="link-text px-5">Sign Out</Link>
+
+                <span>  { auth.isSignedIn() && <Link to='/signout' className="link-text px-5">Sign Out</Link> } </span>
+
             </div>
           </div>
         </div>

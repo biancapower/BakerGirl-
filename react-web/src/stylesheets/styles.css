@@ -23,6 +23,17 @@ body {
     margin-top: 240px;
 }
 
+#logo-home {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    margin-top: 140px;
+}
+
 .home-jumbo {
   background-image: url('../assets/images/cupcakes_filtered.png');
   background-size: cover;
@@ -31,7 +42,7 @@ body {
 }
 
 .intro {
-  top: 70%;
+  top: 55%;
   position: relative;
   text-align: center;
   /* background-color: rgba(225, 244, 244, 0.8); */

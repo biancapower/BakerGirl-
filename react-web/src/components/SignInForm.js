@@ -1,27 +1,43 @@
-import React from 'react'
+import React from 'react';
+import { Jumbotron, Container, Row, Button, Col, Card, CardTitle, CardText,Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+
 
 function SignInForm({ onSignIn }) {
   return (
-    <div>
-      <h1>Sign In</h1>
-      <form onSubmit={ onSignIn }>
-        <label>
-          Email
-          &nbsp;
-          <input type="email" name="email"/>
-        </label>
+    <Container>
+      <Col>
+        <Row className="mt-5">
+          <Col>
+            <h1>Sign In</h1>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col>
+            <Form onSubmit={ onSignIn }>
+              <FormGroup>
+                <Label>
+                  Email
+                </Label>
+                <Input type="email" name="email"/>
+              </FormGroup>              
 
-        <label>
-          Password
-          &nbsp;
-          <input type="password" name="password"/>
-        </label>
+              <FormGroup>              
+                <Label>
+                  Password
+                </Label>
+                <Input type="password" name="password"/>
+              </FormGroup>              
 
-        <button type="submit">
-          Sign In
-        </button>
-      </form>
-    </div>
+              <div className="text-center mt-5">
+                <Button type="submit">
+                  Sign In
+                </Button>
+              </div>
+            </Form>
+          </Col>
+        </Row>
+      </Col>
+    </Container>
   )
 }
 

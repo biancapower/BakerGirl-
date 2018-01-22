@@ -170,6 +170,11 @@ a:hover {
   min-width: 100%;
 }
 
+#insta-logo {
+  width: 55px;
+  padding-right: 20px;
+}
+
 @media (max-width: 900px) {
 
   .card {

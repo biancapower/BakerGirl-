@@ -84,3 +84,14 @@ Once cloned from github a few steps need to be taken to get the application up a
 ![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)
 
 ![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)
+
+
+## Notes ##
+
+When using the Instagram API platform plase take into account the below notes on how to set the scope of the application to be able to access public instagram content:
+
+* When using instagram developer you may get an error message saying: redirectUri not recognised by Instagram.
+* If its not recognised go to: : https://www.instagram.com/developer/clients/manage
+* Then go to to Manage Clients > Manage > Security, and add to “Valid redirect URIs:” the addresses of the
+* localhost and port of production URL, then try & copy and paste again, until it displays the user
+* The app in sandbox mode can only be authorised by sandbox users, so the user has so approve, by pressing the     authorize button which is shown.

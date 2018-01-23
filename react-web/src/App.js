@@ -102,6 +102,15 @@ handleSignOut = () => {
               </div>
             </div>
 
+            {/* CALL TO ACTION */}
+            <div color="faded" light="true" expand="md" className="pink-navbar">
+              <div className="pink-nav">
+                <div className="nav-item-pink">
+                    <NavLink href="/CreateACake" className="link-text-black">Create&nbsp;Your&nbsp;Cake!</NavLink>
+                </div>
+              </div>
+            </div>
+
             <Switch>
               <Route path='/about' component={AboutPage} />
               <Route path='/contact' component={ContactPage} />

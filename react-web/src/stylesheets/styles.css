@@ -76,6 +76,47 @@ body {
   padding-bottom: 15px;
 }
 
+.top-nav {
+  text-align: center;
+}
+
+.pink-navbar {
+  background-color: white;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pink-nav {
+  text-align: center;
+}
+
+.nav-item-pink {
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
+}
+
+.link-text-black {
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  text-align: center;
+}
+
+.link-text-black:hover {
+  color: rgb(209, 124, 138);
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  text-align: center;
+}
+
 .footer {
   background-color: #232323;
   position: fixed;
@@ -84,10 +125,6 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
-}
-
-.top-nav {
-  text-align: center;
 }
 
 .nav-item {

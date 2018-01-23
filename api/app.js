@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.options("*", cors());
+app.options("/cakes", cors());
 
 // cakes router/controller
 const cakesRouter = require('./routes/cakes');

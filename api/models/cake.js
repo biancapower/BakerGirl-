@@ -2,14 +2,6 @@ const mongoose = require('./base');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.Types.ObjectId;
 
-const CommentSchema = Schema({
-  body: String
-})
-
-const person = {
-  type: ObjectId, ref: 'Person'
-}
-
 const cakeSchema = Schema({
   layers: String, 
   tiers: String, 

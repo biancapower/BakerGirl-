@@ -7,7 +7,7 @@ export default function CakeButton() {
   return (
     <div>
       <Jumbotron className="home-jumbo">
-        <Media id="logo" object src={Logo} alt="Baker Girl Logo" />
+        <Media id="logo-home" object src={Logo} alt="Baker Girl Logo" />
 
         <div className="intro">
 

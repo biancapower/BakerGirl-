@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import InstaFeed from '../components/InstaFeed';
-import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, Media } from 'reactstrap';
+import { Container, Row, Col, Media } from 'reactstrap';
 import Instagram from '../assets/images/instagram-logo.png';
 
 

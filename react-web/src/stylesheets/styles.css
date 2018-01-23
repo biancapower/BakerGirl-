@@ -45,7 +45,6 @@ body {
   top: 55%;
   position: relative;
   text-align: center;
-  /* background-color: rgba(225, 244, 244, 0.8); */
 }
 .button {
   background-color: #f2d0e6;
@@ -71,8 +70,6 @@ body {
 }
 
 .top-navbar {
-  /* background-color: #F8CBE5; */
-  /* background-color: #000; */
   background-color: #232323;
   margin-bottom: 0px;
   padding-top: 15px;
@@ -80,8 +77,6 @@ body {
 }
 
 .footer {
-  /* background-color: #F8CBE5; */
-  /* background-color: #000; */
   background-color: #232323;
   position: fixed;
   height: 65px;
@@ -92,7 +87,6 @@ body {
 }
 
 .top-nav {
-  /* padding-left: 10%;
   padding-right: 10%; */
   text-align: center;
 }

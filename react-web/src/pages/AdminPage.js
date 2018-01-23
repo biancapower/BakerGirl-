@@ -3,7 +3,7 @@ import CakeList from '../components/CakeList'
 import { Route, Switch } from 'react-router-dom'
 import Cake from '../components/Cake'
 import decodeJWT from 'jwt-decode'
-import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardFooter, Media } from 'reactstrap';
+import { Container, Card } from 'reactstrap';
 
 
 

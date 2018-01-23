@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Switch, Link } from 'react-router-dom'
-import { Button, Container, Media, Card, Jumbotron } from 'reactstrap';
+import { Button, Media, Jumbotron } from 'reactstrap';
 import Logo from '../assets/images/Logo.png';
 
 export default function CakeButton() {

@@ -60,13 +60,6 @@ export class App extends Component {
       })
   }
 
-  // handleCakeSubmission = (cake) => {
-  //   this.setState(({ cakes }) => {
-  //     return { cakes: [cake].concat(cakes) }
-  //   });
-  //   cakesAPI.save(cake);
-  // }
-
   handleCakeSubmission = (cake) => {
   cakesAPI.save(cake);
   this.setState(({ cakes }) => (

@@ -21,7 +21,12 @@ app.use(function(req, res, next) {
   next();
 });
 
+<<<<<<< HEAD
 app.use("*", cors());
+=======
+app.use(cors())
+
+>>>>>>> develop
 // app.options("*", cors());
 
 // cakes router/controller

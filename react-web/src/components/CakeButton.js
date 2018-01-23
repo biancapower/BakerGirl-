@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Button, Media, Jumbotron } from 'reactstrap';
 import Logo from '../assets/images/Logo.png';
 

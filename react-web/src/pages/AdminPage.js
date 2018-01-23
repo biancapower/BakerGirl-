@@ -2,15 +2,13 @@ import React from 'react'
 import CakeList from '../components/CakeList'
 import { Route, Switch } from 'react-router-dom'
 import Cake from '../components/Cake'
-import decodeJWT from 'jwt-decode'
-import { Container, Card } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 
 
 
 export default ({ cakes, token }) => {
   try {
-    const decodedToken = decodeJWT(token)
     return (
 
     cakes ? (

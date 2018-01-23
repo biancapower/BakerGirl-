@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Route, Switch, Link } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input, Container, Media, Card } from 'reactstrap';
 import Logo from '../assets/images/Logo.png';
 
@@ -259,7 +259,7 @@ class CakeForm extends React.Component {
                 </FormGroup>
 
                 <div className="text-center mt-5">
-                  <Button type="submit">Create Cake! 🍰</Button>
+                  <Button type="submit">Create Cake! <span role="img" aria-label="cake">🍰</span></Button>
                 </div>
               </Form>
 

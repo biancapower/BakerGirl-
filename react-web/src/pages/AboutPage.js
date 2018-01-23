@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Card, CardTitle, CardText, Media } from 'reactstrap';
-import BackgroundPicture from '../assets/images/BackgroundPicture2.jpeg';
 import Logo from '../assets/images/Logo.png';
 
 export default function () {

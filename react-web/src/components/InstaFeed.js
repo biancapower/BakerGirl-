@@ -1,12 +1,9 @@
 import React from 'react';
 import Instafeed from '../react-instafeed/src/index';
-import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
 
 const instaUserId = `${process.env.REACT_APP_INSTA_USER_ID}`;
 const instaClientId = `${process.env.REACT_APP_INSTA_CLIENT_ID}`;
 const instaAccessToken = `${process.env.REACT_APP_INSTA_ACCESS_TOKEN}`;
-
-//import Instafeed from 'react-instafeed';
 
 class InstaFeed extends React.Component {
   render() {

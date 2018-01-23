@@ -3,8 +3,8 @@ import {
   BrowserRouter as Router, Route, Link, Switch, Redirect
 } from 'react-router-dom'
 
+
 import './stylesheets/styles.css';
-import CakesPage from './pages/CakesPage';
 import CakeForm from './components/CakeForm'
 import AboutPage from './pages/AboutPage'
 import AdminPage from './pages/AdminPage'
@@ -17,19 +17,7 @@ import SignOutForm from './components/SignOutForm'
 import * as cakesAPI from './api/cakes'
 import * as auth from './api/auth'
 import {
-  Container,
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  CardFooter,
-  DropdownItem
+  NavLink
 } from 'reactstrap';
 
 
@@ -59,13 +47,6 @@ export class App extends Component {
         this.setState({ cakes })
       })
   }
-
-  // handleCakeSubmission = (cake) => {
-  //   this.setState(({ cakes }) => {
-  //     return { cakes: [cake].concat(cakes) }
-  //   });
-  //   cakesAPI.save(cake);
-  // }
 
   handleCakeSubmission = (cake) => {
   cakesAPI.save(cake);
@@ -98,7 +79,6 @@ handleSignOut = () => {
 
   render() {
     const { cakes } = this.state;
-    const isSignedIn = this.state.isSignedIn;
 
     return (
       <Router>

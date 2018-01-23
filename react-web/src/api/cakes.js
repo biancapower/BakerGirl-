@@ -1,6 +1,6 @@
 import { token } from './auth'
 
-const CAKES_API_URL=`${process.env.REACT_APP_API_URL}/cakes`
+const CAKES_API_URL=`${process.env.REACT_APP_API_URL}/admin`
 
 export function all() {
   return fetch(CAKES_API_URL, {

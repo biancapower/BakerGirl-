@@ -4,7 +4,6 @@ const authMiddleware = require('./middleware/auth');
 
 // Create the app
 const app = express();
-const cors = require('cors')
 
 app.use(require('cookie-parser')());
 app.use(bodyParser.json());
@@ -21,13 +20,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-<<<<<<< HEAD
-app.use("*", cors());
-=======
-app.use(cors())
-
->>>>>>> develop
-// app.options("*", cors());
 
 // cakes router/controller
 const cakesRouter = require('./routes/cakes');

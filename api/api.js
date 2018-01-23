@@ -12,6 +12,5 @@ var igOptions = {
     client_secret: '82edca82229e4a49a6251c1dc04dbf9d'
 }
 
-
 //the redirect uri we set when registering our application
 var redirectUri = 'http://localhost:8080/handleAuth';

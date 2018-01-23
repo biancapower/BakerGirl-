@@ -13,7 +13,7 @@ export default function () {
             <h2><a href="https://www.instagram.com/_bakergirl/" target="_blank" rel="noopener noreferrer"><Media id="insta-logo" object src={Instagram} alt="Instagram Logo" />Follow us on Instagram</a></h2>
           </Col>
         </Row>
-        <Row className="m-5 text-center">
+        <Row className="m-5 pb-5 text-center">
           <InstaFeed />
         </Row>   
       </Col>

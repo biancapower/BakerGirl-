@@ -32,58 +32,61 @@ Once cloned from github a few steps need to be taken to get the application up a
   * passport-local-mongoose 4.4.0
 
 ## Project Proposal ##
-![Project Proposal](/documentation/Project_proposal1.png)<!-- .element width="50%" -->
+![Project Proposal](/documentation/Project_proposal1.png)
 
-![Project Proposal](/documentation/Project_proposal2.png)<!-- .element width="50%" -->
+<img src="/documentation/Project_proposal1.png" width="100">
 
-![Project Proposal](/documentation/Project_proposal3.png)<!-- .element width="50%" -->
 
-![Project Proposal](/documentation/Project_proposal4.png)<!-- .element width="50%" -->
+![Project Proposal](/documentation/Project_proposal2.png)
+
+![Project Proposal](/documentation/Project_proposal3.png)
+
+![Project Proposal](/documentation/Project_proposal4.png)
 
 ## Proposal Pitch ##
-![Pitch Slides](/documentation/BAKERGIRL_prez1.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez1.png)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez2.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez2.png)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez3.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez3.png)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez4.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez4.png)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez5.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez5.png)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez6.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez6.png)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez7.png)<!-- .element width="50%" -->
+![Pitch Slides](/documentation/BAKERGIRL_prez7.png)
 
 ## User Flow ##
-![user Flow](/documentation/BakerGirlUserflow.png)<!-- .element width="50%" -->
+![user Flow](/documentation/BakerGirlUserflow.png)
 
 ## Project Sprint ##
-![Project Sprint](/documentation/sprint.png)<!-- .element width="50%" -->
+![Project Sprint](/documentation/sprint.png)
 
 ## ERD ##
-![ERD](/documentation/Images/BakerGirlERD.png)<!-- .element width="50%" -->
+![ERD](/documentation/Images/BakerGirlERD.png)
 
 ## Wireframes ##
-![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)<!-- .element width="50%" -->
+![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)
 
-![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)<!-- .element width="50%" -->
+![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)
 
-![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)<!-- .element width="50%" -->
+![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)
 
-![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)<!-- .element width="50%" -->
+![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)
 
-![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)<!-- .element width="50%" -->
+![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)
 
-![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)<!-- .element width="50%" -->
+![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)
 
-![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)<!-- .element width="50%" -->
+![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)
 
-![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)<!-- .element width="50%" -->
+![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)
 
-![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)<!-- .element width="50%" -->
+![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)
 
-![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)<!-- .element width="50%" -->
+![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)
 
 
 ## Notes ##

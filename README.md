@@ -3,6 +3,7 @@ A simple online platform for ordering customised cakes for baker girl company ba
 
 ## Setup ##
 Once cloned from github a few steps need to be taken to get the application up and running.
+* 
 * Open terminal and run ``` mongod ```
 * Then in a second tab in terminal run ``` mongo ```
 * For this app we are using Dontenv Library, and more information can be checked out here: https://www.npmjs.com/package/dotenv

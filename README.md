@@ -281,9 +281,11 @@ ___
 
 Team have provided feedback survey to other users results are below:
 
+* User Feedback
 
+![User feedback](/documentation/User_feedback.png)
 
-## Client Feedback
+### Client Feedback
 
 Provided client survey for site feedback: [Click here](https://www.surveymonkey.com/r/5WHV3D8)
 

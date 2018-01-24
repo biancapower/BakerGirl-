@@ -283,7 +283,7 @@ Team have provided feedback survey to other users results are below:
 
 * User Feedback
 
-![User feedback](/documentation/User_feedback.png)
+<img src="/documentation/User_feedback.png" width="500">
 
 ### Client Feedback
 

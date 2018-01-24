@@ -34,9 +34,6 @@ Once cloned from github a few steps need to be taken to get the application up a
 ## Project Proposal ##
 ![Project Proposal](/documentation/Project_proposal1.png)
 
-<img src="/documentation/Project_proposal1.png" width="600" style="text-align: center;">
-
-
 ![Project Proposal](/documentation/Project_proposal2.png)
 
 ![Project Proposal](/documentation/Project_proposal3.png)

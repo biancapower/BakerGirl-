@@ -150,13 +150,13 @@ ___
 
 ## Project Proposal ##
 
-![Project Proposal](/documentation/Project_proposal1.png | width=100)
+![](https://github.com/biancapower/BakerGirl-/blob/develop/documentation/Project_proposal1.png | width=100)
 
-![Project Proposal](/documentation/Project_proposal2.png)
+![](/documentation/Project_proposal2.png)
 
-![Project Proposal](/documentation/Project_proposal3.png)
+![](/documentation/Project_proposal3.png)
 
-![Project Proposal](/documentation/Project_proposal4.png)
+![](/documentation/Project_proposal4.png)
 
 ## Proposal Pitch ##
 ![Pitch Slides](/documentation/BAKERGIRL_prez1.png)

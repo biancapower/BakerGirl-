@@ -32,58 +32,58 @@ Once cloned from github a few steps need to be taken to get the application up a
   * passport-local-mongoose 4.4.0
 
 ## Project Proposal ##
-![Project Proposal](/documentation/Project_proposal1.png =200)
+![Project Proposal](/documentation/Project_proposal1.png =200x)
 
-![Project Proposal](/documentation/Project_proposal2.png =200)
+![Project Proposal](/documentation/Project_proposal2.png =200x)
 
-![Project Proposal](/documentation/Project_proposal3.png =200)
+![Project Proposal](/documentation/Project_proposal3.png =200x)
 
-![Project Proposal](/documentation/Project_proposal4.png =200)
+![Project Proposal](/documentation/Project_proposal4.png =200x)
 
 ## Proposal Pitch ##
-![Pitch Slides](/documentation/BAKERGIRL_prez1.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez1.png =200x)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez2.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez2.png =200x)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez3.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez3.png =200x)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez4.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez4.png =200x)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez5.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez5.png =200x)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez6.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez6.png =200x)
 
-![Pitch Slides](/documentation/BAKERGIRL_prez7.png =200)
+![Pitch Slides](/documentation/BAKERGIRL_prez7.png =200x)
 
 ## User Flow ##
-![user Flow](/documentation/BakerGirlUserflow.png =200)
+![user Flow](/documentation/BakerGirlUserflow.png =200x)
 
 ## Project Sprint ##
-![Project Sprint](/documentation/sprint.png =200)
+![Project Sprint](/documentation/sprint.png =200x)
 
 ## ERD ##
-![ERD](/documentation/Images/BakerGirlERD.png =200)
+![ERD](/documentation/Images/BakerGirlERD.png =200x)
 
 ## Wireframes ##
-![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png =200)
+![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png =200x)
 
-![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png =200)
+![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png =200x)
 
-![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png =200)
+![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png =200x)
 
-![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png =200)
+![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png =200x)
 
-![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png =200)
+![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png =200x)
 
-![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png =200)
+![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png =200x)
 
-![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png =200)
+![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png =200x)
 
-![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png =200)
+![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png =200x)
 
-![About Mobile](/documentation/Images/BakerGirlAboutMobile.png =200)
+![About Mobile](/documentation/Images/BakerGirlAboutMobile.png =200x)
 
-![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png =200)
+![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png =200x)
 
 
 ## Notes ##

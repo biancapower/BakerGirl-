@@ -1,6 +1,43 @@
 # BakerGirl
 A simple online platform for ordering customised cakes for baker girl company based in Sydney. This platform is to help streamline the running of bakergirl as it helps manage orders.
 
+---
+
+
+## Team:
+
+**Sophie Chhoeu**
+* Role: Project Manager
+
+  Responsibilities: Organising work flow, managing client relationship, assist team where necessary and or with escalation issues.  
+
+**Bianca Power**
+
+* Role: Tech Lead
+
+  Responsibilities: Manages Team Github, Deployment and escalation tech and creative issues.
+
+**Tessa Reed**  
+
+* Role: UX / Dev Lead  
+
+  Responsibilities: Manages and develops site flow. Implements authentication in line with client user experience.
+
+**Cindy Ariya**
+
+* Role: Creative Lead
+
+  Responsibilities: Implements style requirements based on team and client recommendations.
+
+___
+
+# Live site
+
+Here is the deployed live site on netlify:
+
+[Click here](https://baker-girl.netlify.com/)
+
+
 ___
 
 ## Initial Setup
@@ -150,7 +187,7 @@ ___
 
 ## Project Proposal ##
 
-![](/documentation/Project_proposal1.png=100x20 )
+![](/documentation/Project_proposal1.png)
 
 ![](/documentation/Project_proposal2.png)
 
@@ -204,12 +241,50 @@ ___
 ![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)
 
 
-## Notes ##
+## Trello Board
 
-When using the Instagram API platform plase take into account the below notes on how to set the scope of the application to be able to access public instagram content:
+Highlights deliverables by team:
+includes: styling, colours, user stories and initial project timeline
 
-* When using instagram developer you may get an error message saying: redirectUri not recognised by Instagram.
-* If its not recognised go to: : https://www.instagram.com/developer/clients/manage
-* Then go to to Manage Clients > Manage > Security, and add to “Valid redirect URIs:” the addresses of the
-* localhost and port of production URL, then try & copy and paste again, until it displays the user
-* The app in sandbox mode can only be authorised by sandbox users, so the user has so approve, by pressing the     authorize button which is shown.
+https://trello.com/b/SOuF8d5F/baker-girl
+
+## Client Diary
+
+Communication with client including meeting minutes and agenda points by the team:
+
+https://docs.google.com/document/d/1H_Q8dseeNPwsDFcRDex7stukgzn7SDYm_t_CPqaoapc/edit
+
+
+## Issues:
+___
+
+### Instagram
+
+In attempting to use the npm module [react-instafeed](https://github.com/JeromeFitz/react-instafeed) I realised that the code in the module was incorrect. To remedy this, I forked the github repo, made the necessary changes to the code, and from there on used my forked version to achieve the desired result.
+
+To get it working locally:
+- cd into react-web/src
+- remove the directory "react-instafeed"
+- git clone https://github.com/biancapower/react-instafeed.git
+
+### Form Validation
+
+Due to the timeframe of the project we were unable to implement form validation for the client and have advised accordingly.
+
+### Delete order entries in Admin
+
+Due to the timeframe of the project, next sprint will include routes to delete order entries. Have advised client accordingly.
+
+___
+
+## User testing
+
+Team have provided feedback survey to other users results are below:
+
+
+
+## Client Feedback
+
+Provided client survey for site feedback: [Click here](https://www.surveymonkey.com/r/5WHV3D8)
+
+Results from client below:

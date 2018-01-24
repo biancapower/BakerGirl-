@@ -32,58 +32,58 @@ Once cloned from github a few steps need to be taken to get the application up a
   * passport-local-mongoose 4.4.0
 
 ## Project Proposal ##
-![Project Proposal](/documentation/Project_proposal1.png =200x)
+<div style="width:50%">![Project Proposal](/documentation/Project_proposal1.png)</div>
 
-![Project Proposal](/documentation/Project_proposal2.png =200x)
+<div style="width:50%">![Project Proposal](/documentation/Project_proposal2.png)</div>
 
-![Project Proposal](/documentation/Project_proposal3.png =200x)
+<div style="width:50%">![Project Proposal](/documentation/Project_proposal3.png)</div>
 
-![Project Proposal](/documentation/Project_proposal4.png =200x)
+<div style="width:50%">![Project Proposal](/documentation/Project_proposal4.png)</div>
 
 ## Proposal Pitch ##
-![Pitch Slides](/documentation/BAKERGIRL_prez1.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez1.png)</div>
 
-![Pitch Slides](/documentation/BAKERGIRL_prez2.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez2.png)</div>
 
-![Pitch Slides](/documentation/BAKERGIRL_prez3.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez3.png)</div>
 
-![Pitch Slides](/documentation/BAKERGIRL_prez4.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez4.png)</div>
 
-![Pitch Slides](/documentation/BAKERGIRL_prez5.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez5.png)</div>
 
-![Pitch Slides](/documentation/BAKERGIRL_prez6.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez6.png)</div>
 
-![Pitch Slides](/documentation/BAKERGIRL_prez7.png =200x)
+<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez7.png)</div>
 
 ## User Flow ##
-![user Flow](/documentation/BakerGirlUserflow.png =200x)
+<div style="width:50%">![user Flow](/documentation/BakerGirlUserflow.png)</div>
 
 ## Project Sprint ##
-![Project Sprint](/documentation/sprint.png =200x)
+<div style="width:50%">![Project Sprint](/documentation/sprint.png)</div>
 
 ## ERD ##
-![ERD](/documentation/Images/BakerGirlERD.png =200x)
+<div style="width:50%">![ERD](/documentation/Images/BakerGirlERD.png)</div>
 
 ## Wireframes ##
-![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png =200x)
+<div style="width:50%">![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)</div>
 
-![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png =200x)
+<div style="width:50%">![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)</div>
 
-![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png =200x)
+<div style="width:50%">![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)</div>
 
-![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png =200x)
+<div style="width:50%">![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)</div>
 
-![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png =200x)
+<div style="width:50%">![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)</div>
 
-![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png =200x)
+<div style="width:50%">![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)</div>
 
-![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png =200x)
+<div style="width:50%">![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)</div>
 
-![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png =200x)
+<div style="width:50%">![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)</div>
 
-![About Mobile](/documentation/Images/BakerGirlAboutMobile.png =200x)
+<div style="width:50%">![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)</div>
 
-![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png =200x)
+<div style="width:50%">![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)</div>
 
 
 ## Notes ##

@@ -32,58 +32,58 @@ Once cloned from github a few steps need to be taken to get the application up a
   * passport-local-mongoose 4.4.0
 
 ## Project Proposal ##
-<div style="width:50%">![Project Proposal](/documentation/Project_proposal1.png)</div>
+![Project Proposal](/documentation/Project_proposal1.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Project Proposal](/documentation/Project_proposal2.png)</div>
+![Project Proposal](/documentation/Project_proposal2.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Project Proposal](/documentation/Project_proposal3.png)</div>
+![Project Proposal](/documentation/Project_proposal3.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Project Proposal](/documentation/Project_proposal4.png)</div>
+![Project Proposal](/documentation/Project_proposal4.png)<!-- .element width="50%" -->
 
 ## Proposal Pitch ##
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez1.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez1.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez2.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez2.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez3.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez3.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez4.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez4.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez5.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez5.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez6.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez6.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Pitch Slides](/documentation/BAKERGIRL_prez7.png)</div>
+![Pitch Slides](/documentation/BAKERGIRL_prez7.png)<!-- .element width="50%" -->
 
 ## User Flow ##
-<div style="width:50%">![user Flow](/documentation/BakerGirlUserflow.png)</div>
+![user Flow](/documentation/BakerGirlUserflow.png)<!-- .element width="50%" -->
 
 ## Project Sprint ##
-<div style="width:50%">![Project Sprint](/documentation/sprint.png)</div>
+![Project Sprint](/documentation/sprint.png)<!-- .element width="50%" -->
 
 ## ERD ##
-<div style="width:50%">![ERD](/documentation/Images/BakerGirlERD.png)</div>
+![ERD](/documentation/Images/BakerGirlERD.png)<!-- .element width="50%" -->
 
 ## Wireframes ##
-<div style="width:50%">![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)</div>
+![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)</div>
+![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)</div>
+![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)</div>
+![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)</div>
+![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)</div>
+![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)</div>
+![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)</div>
+![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)</div>
+![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)<!-- .element width="50%" -->
 
-<div style="width:50%">![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)</div>
+![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)<!-- .element width="50%" -->
 
 
 ## Notes ##

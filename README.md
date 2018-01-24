@@ -150,7 +150,7 @@ ___
 
 ## Project Proposal ##
 
-![](https://github.com/biancapower/BakerGirl-/blob/develop/documentation/Project_proposal1.png | width=50)
+![](/documentation/Project_proposal1.png=100x20 )
 
 ![](/documentation/Project_proposal2.png)
 

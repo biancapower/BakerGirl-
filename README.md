@@ -187,58 +187,58 @@ ___
 
 ## Project Proposal ##
 
-![](/documentation/Project_proposal1.png)
+<img src="/documentation/Project_proposal1.png" width="500">
 
-![](/documentation/Project_proposal2.png)
+<img src="/documentation/Project_proposal2.png" width="500">
 
-![](/documentation/Project_proposal3.png)
+<img src="/documentation/Project_proposal3.png" width="500">
 
-![](/documentation/Project_proposal4.png)
+<img src="/documentation/Project_proposal4.png" width="500">
 
 ## Proposal Pitch ##
-![Pitch Slides](/documentation/BAKERGIRL_prez1.png)
+<img src="/documentation/BAKERGIRL_prez1.png" width="500">
 
-![Pitch Slides](/documentation/BAKERGIRL_prez2.png)
+<img src="/documentation/BAKERGIRL_prez2.png" width="500">
 
-![Pitch Slides](/documentation/BAKERGIRL_prez3.png)
+<img src="/documentation/BAKERGIRL_prez3.png" width="500">
 
-![Pitch Slides](/documentation/BAKERGIRL_prez4.png)
+<img src="/documentation/BAKERGIRL_prez4.png" width="500">
 
-![Pitch Slides](/documentation/BAKERGIRL_prez5.png)
+<img src="/documentation/BAKERGIRL_prez5.png" width="500">
 
-![Pitch Slides](/documentation/BAKERGIRL_prez6.png)
+<img src="/documentation/BAKERGIRL_prez6.png" width="500">
 
-![Pitch Slides](/documentation/BAKERGIRL_prez7.png)
+<img src="/documentation/BAKERGIRL_prez7.png" width="500">
 
 ## User Flow ##
-![user Flow](/documentation/BakerGirlUserflow.png)
+<img src="/documentation/BakerGirlUserflow.png" width="500">
 
 ## Project Sprint ##
-![Project Sprint](/documentation/sprint.png)
+<img src="/documentation/sprint.png" width="500">
 
 ## ERD ##
-![ERD](/documentation/Images/BakerGirlERD.png)
+<img src="/documentation/Images/BakerGirlERD.png" width="500">
 
 ## Wireframes ##
-![Landing Mobile](/documentation/Images/BakerGirlLandingMobile.png)
+<img src="/documentation/Images/BakerGirlLandingMobile.png" width="500">
 
-![Landing Desktop](/documentation/Images/BakerGirlLandingDesktop.png)
+<img src="/documentation/Images/BakerGirlLandingDesktop.png" width="500">
 
-![Gallery Mobile](/documentation/Images/BakerGirlGalleryMobile.png)
+<img src="/documentation/Images/BakerGirlGalleryMobile.png" width="500">
 
-![Gallery Desktop](/documentation/Images/BakerGirlGalleryDesktop.png)
+<img src="/documentation/Images/BakerGirlGalleryDesktop.png" width="500">
 
-![Contact Mobile](/documentation/Images/BakerGirlContactMobile.png)
+<img src="/documentation/Images/BakerGirlContactMobile.png" width="500">
 
-![Contact Desktop](/documentation/Images/BakerGirlContactDesktop.png)
+<img src="/documentation/Images/BakerGirlContactDesktop.png" width="500">
 
-![Admin Mobile](/documentation/Images/BakerGirlAdminMobile.png)
+<img src="/documentation/Images/BakerGirlAdminMobile.png" width="500">
 
-![Admin Desktop](/documentation/Images/BakerGirlAdminDesktop.png)
+<img src="/documentation/Images/BakerGirlAdminDesktop.png" width="500">
 
-![About Mobile](/documentation/Images/BakerGirlAboutMobile.png)
+<img src="/documentation/Images/BakerGirlAboutMobile.png" width="500">
 
-![About Desktop](/documentation/Images/BakerGirlAboutDesktop.png)
+<img src="/documentation/Images/BakerGirlAboutDesktop.png" width="500">
 
 
 ## Trello Board

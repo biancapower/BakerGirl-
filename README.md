@@ -285,8 +285,20 @@ Team have provided feedback survey to other users results are below:
 
 <img src="/documentation/User_feedback.png" width="500">
 
+* Users rated the website extremely engaging
+* Users rated the website extremely easy to navigate
+
 ### Client Feedback
 
 Provided client survey for site feedback: [Click here](https://www.surveymonkey.com/r/5WHV3D8)
 
 Results from client below:
+
+* mobile responsiveness for iphone, ie safari browser
+* smaller font 
+
+Overall the client was happy with the initial mvp and would look to add the following for future development to include:
+* cake quote custom feature : as the cake is being built an estimate quote is provided to a user
+* admin : having the ability to delete entries from the admin interface once a cake is completed
+
+<img src="/documentation/feedback.png" width="500">
